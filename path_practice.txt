@@ -1,0 +1,18 @@
+Recreate the class directories pictured tree structure in your ~/Desktop/Path_Practice directory. Use only relative paths while working in the ~/Documents directory. 
+
+For the following change your working directory to ~/Downloads and stay there. 
+
+Using a relative path for the following exercises:
+
+Create the subdirectories of the classes. 
+
+For the following change directories to your ~/Documents/cis190 directory. Use relative paths for the following. 
+
+Create the text files. 
+For the following change directories to your home directory. Use a relative path for the source and an absolute path for the destination. 
+Copy the text files from the Labs directory of your cis280 folder to your Homework directory of the cis280 folder. 
+Copy the text files from the Labs directory of your cis101 folder to your Homework directory of the cis201 folder. 
+Delete the text files numbered 1-5 in the destination of the previous two questions. 
+Move the lab 6-10 text files from the cis201/Homework directory to the cis101/Quizzes directory
+Rename the cis101/Quizzes directory to be named Exams
+

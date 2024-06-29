@@ -1,0 +1,17 @@
+Recreate the pictured tree structure in your ~/Desktop/Practice/Web folder all with relative paths while working in the ~/Documents directory. 
+
+For the following change your working directory to ~/Downloads and stay there. 
+
+Using a relative path for the following exercises:
+
+Create a directory called “examples” and move the example pages into it. 
+Create a directory called PHP and put the files with the .php file extension in there. 
+Create a directory called HTML and put the files with the .html file extension in there. 
+
+For the following use a relative path for the source and an absolute path for the destination directory when moving. 
+
+Create a directory called “Style Sheets” and put the files with the .css file extension in there. 
+Create a directory called “other” and put the files with the tilde in file extension in there. 
+Make a copy of the “Style Sheets” directory in the ~/Desktop/Practice/ folder.
+Rename the just copied “Style Sheets” directory to “Cascading Style Sheets”
+Move the Cascading Style Sheets” directory into Web
