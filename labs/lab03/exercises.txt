@@ -1,0 +1,114 @@
+mkdir data
+cd data
+mkdir aircraft
+cd aircraft
+mkdir configurations
+cd configurations
+mkdir xq-67a mq-1c mq-9b mq-20 mojave mq-9
+touch n345qr.cfg
+cd xq-67a
+touch n223wx.cfg index.cfg n901uv.cfg
+cd -
+cd mq-1c
+touch n789ef.cgf n101gh.cfg index.cfg
+cd -
+cd mq-9b
+touch index.cfg
+cd -
+cd mq-20
+touch n234ij.cfg n567kl.cfg index.cfg
+cd- 
+touch n678st.cfg
+cd mq-9
+touch n112op.cfg index.cfg n890mn.cfg
+cd -
+
+
+1. Navigate to the 'mq-9' directory using an absolute path.
+
+Answer	cd /workspaces/cis190-codespace/data/aircraft/configurations/mq-9
+
+
+2. Navigate to the 'xq-67a' directory using a relative path from 'configurations'.
+
+Answer	cd xq-67a/
+
+3. Move 'n345qr.cfg' to the 'mq-1c' directory.
+
+Answer	mv /workspaces/cis190-codespace/data/aircraft/configurations/n345qr.cfg /workspaces/cis190-codesp
+ace/data/aircraft/configurations/mq-1c
+
+4. Move 'n678st.cfg' to the 'mojave' directory. 
+
+Answer	mv /workspaces/cis190-codespace/data/aircraft/configurations/n678st.cfg /workspaces/cis190-codespace/data/aircraft/configurations/mojave
+
+5. Create a backup directory in 'aircraft' and copy all the configuration files into it.
+
+Answer	@aarons9445 ➜ .../cis190-codespace/data/aircraft/configurations (main) $ cd ../
+@aarons9445 ➜ /workspaces/cis190-codespace/data/aircraft (main) $ mkdir backup
+@aarons9445 ➜ /workspaces/cis190-codespace/data/aircraft (main) $ cd configurations
+@aarons9445 ➜ .../cis190-codespace/data/aircraft/configurations (main) $ tar -czf backup.tar.gz 
+. 
+mv backup.tar.gz /workspaces/cis190-codespace/data/aircraft/backup/
+
+6. List the i-nodes of all configuration files in 'mq-20' (Note, you may need to look up how to see i-nodes using the ls command by using the man page utility).
+
+Answer	ls -i
+
+7. Remove the 'mq-9b' directory using 'rmdir' and explain the error message.
+
+Answer	Directory not empty (There are files in the folder which prevent a folder from deletion)
+
+8. Create a 'locations' directory in 'aircraft'.
+
+Answer	mkdir locations
+
+9. Create symbolic links in 'locations' to the 'xq-67a', 'mq-1c', and 'mq-9' directories.
+
+Answer	ln -s /workspaces/cis190-codespace/data/aircraft/configurations/xq-67a /workspaces/cis190-codespace/data/aircraft/locations
+
+10. Navigate to 'mojave' using a relative path from 'aircraft'.
+
+Answer	cd configurations/mojave
+
+11. Copy 'n112op.cfg' to the 'backup' directory.
+
+Answer	cp /workspaces/cis190-codespace/data/aircraft/configurations/mq-9/n112op.cfg /workspaces/cis190-codespace/data/aircraft/backup
+
+12. List all files in the 'configurations' directory with their sizes.
+
+Answer	tree -h
+
+13. Move 'n890mn.cfg' from 'mq-9' to 'mq-20'.
+
+Answer	mv /workspaces/cis190-codespace/data/aircraft/configurations/mq-9/n890mn.cfg /workspaces/cis190-codespace/data/aircraft/configurations/mq-20
+
+14. Create a symbolic link to 'n101gh.cfg' in the 'locations' directory.
+
+Answer	ln -s mv /workspaces/cis190-codespace/data/aircraft/configurations/mq-1c/n101gh.cfg /workspaces/cis190-codespace/data/aircraft/locations
+
+15. Navigate to 'mq-1c' using an absolute path.
+
+Answer	cd /workspaces/cis190-codespace/data/aircraft/configurations/mq-1c/
+
+16. Remove the symbolic link to 'xq-67a' in the 'locations' directory.
+
+Answer	rm xq-67a
+
+17. Create a new configuration file 'n567kl.cfg' in the 'mojave' directory.
+
+Answer	touch /workspaces/cis190-codespace/data/aircraft/configurations/mojave/n567kl.cfg
+
+18. Display the disk usage of the 'configurations' directory.
+
+Answer	du -h /workspaces/cis190-codespace/data/aircraft/configurations/
+
+19. Create a directory 'test' inside 'mq-9' and remove it using 'rmdir'.
+
+Answer	mkdir /workspaces/cis190-codespace/data/aircraft/configurations/mq-9/test
+	rmdir /workspaces/cis190-codespace/data/aircraft/configurations/mq-9/test
+
+20. Rename 'index.cfg' in 'xq-67a' to 'main.cfg'.
+
+Answer	cd xq-67a
+	mv index.cfg main.cfg
