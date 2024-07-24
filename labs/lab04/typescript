@@ -239,4 +239,765 @@ mkdir: cannot create directory ‘/data/aircraft/n223wx’: Permission denied
 [0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ mkdir /data/aircraft/n223wx[1@s[1@u[1@d[1@o[1@ 
 [0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cp /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx
 cp: cannot stat '/data/aircraft/configurations/config_1.ini': No such file or directory
-[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ 
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cp /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx
+cp: cannot stat '/data/aircraft/configurations/config_1.ini': No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cp /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[C[C[1@ [1@/[1@wo /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx [A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[Cr /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[Ck /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[Cs /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[Cp /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[Ca /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[Cc /data/aircraft/configurations/config_1.ini /data/aircraft/n[C23wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[Ce /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C/ /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Cc /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1 /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C9 /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0 /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C- /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/data/aircraft/configurations/config_1.ini[1P /data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+cp: cannot stat '/workspace/cis190-codespace/data/aircraft/configurations/config_1.ini': No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cp /workspace/cis190-codespace/data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cworkspace/cis190-codespace/data/aircraft/configurations/config_1.ini [1P/data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[Corkspace/cis190-codespace/data/aircraft/configurations/config_1.ini /[1Pdata/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[Crkspace/cis190-codespace/data/aircraft/configurations/config_1.ini /d[1Pata/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[Ckspace/cis190-codespace/data/aircraft/configurations/config_1.ini /da[1Pta/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[Cspace/cis190-codespace/data/aircraft/configurations/config_1.ini /dat[1Pa/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[Cpace/cis190-codespace/data/aircraft/configurations/config_1.ini /data[1P/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[Cace/cis190-codespace/data/aircraft/configurations/config_1.ini /data/[1Paircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[Cce/cis190-codespace/data/aircraft/configurations/config_1.ini /data/a[1Pircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[Ce/cis190-codespace/data/aircraft/configurations/config_1.ini /data/ai[1Prcraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C/cis190-codespace/data/aircraft/configurations/config_1.ini /data/air[1Pcraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[Ccis190-codespace/data/aircraft/configurations/config_1.ini /data/airc[1Praft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[Cis190-codespace/data/aircraft/configurations/config_1.ini /data/aircr[1Paft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[Cs190-codespace/data/aircraft/configurations/config_1.ini /data/aircra[1Pft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C190-codespace/data/aircraft/configurations/config_1.ini /data/aircraf[1Pt/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C90-codespace/data/aircraft/configurations/config_1.ini /data/aircraft[1P/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C0-codespace/data/aircraft/configurations/config_1.ini /data/aircraft/[1Pn223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C-codespace/data/aircraft/configurations/config_1.ini /data/aircraft/n[1P223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[Ccodespace/data/aircraft/configurations/config_1.ini /data/aircraft/n2[C[1P3wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[Codespace/data/aircraft/configurations/config_1.ini /data/aircraft/n22[1P3wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[Cdespace/data/aircraft/configurations/config_1.ini /data/aircraft/n223[1Pwx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[Cespace/data/aircraft/configurations/config_1.ini /data/aircraft/n223w[1Px[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[Cspace/data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[K[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[Cpace/data/aircraft/configurations/config_1.ini /data/aircraft/n223wx [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P
+cp: cannot stat 'data/aircraft/configurations/config_1.ini': No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cp data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P/workspace/cis190-codespace/data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[4Pdata/aircraft/configurations/config_1.ini /data/aircraft/n223wx
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@.[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./data/aircraft/n223wx
+cp: cannot stat './data/aircraft/configurations/config_1.ini': No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cp ./data/aircraft/configurations/config_1.ini ./data/aircraft/n223wx[1@.[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./data/aircraft/n223wx [A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+cp: cannot stat '../data/aircraft/configurations/config_1.ini': No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cp ../data/aircraft/configurations/config_1.ini ../data/aircraft/n223wx [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp ../data/aircraft/configurations/config_1.ini ../data/aircraft/n223wx [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./data/aircraft/configurations/config_1.ini ../data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+cp: cannot stat '.../data/aircraft/configurations/config_1.ini': No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cp .../data/aircraft/configurations/config_1.ini .../data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C/data/aircraft/configurations/config_1.ini ../data/aircraft/n223wx [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P/data/aircraft/configurations/config_1.ini ./data/aircraft/n223wx
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Paft/configurations/config_1.ini /data/aircraft/n223wx/workspace/cis190-codespace/data/aircraft/configurations/config_1.ini /data/aircraft/n223wx[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[4Pdata/aircraft/configurations/config_1.ini /data/aircraft/n223wx
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/
+cp: cannot stat '/data/aircraft/configurations/config_1.ini': No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cp /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx/[C[1@.[1@.[C/data/aircraft/configurations/config_1.ini /data/aircraft/n223wx/ [A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C./data/aircraft/configurations/config_1.ini /data/aircraft/n223wx/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C./data/aircraft/configurations/config_1.ini /data/aircraft/n223wx/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./data/aircraft/n223wx/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./data/aircraft/n223wx/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/data/aircraft/n223wx/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./data/aircraft/n223wx/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./data/aircraft/n[C23wx/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+cp: cannot create regular file '../../data/aircraft/n223wx/': Not a directory
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cp ../../data/aircraft/configurations/config_1.ini ../../data/aircraft/n223wx/[K[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cp ../../data/aircraft/configurations/config_1.ini ../../data/aircraft/n223wx/[K[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cp ../../data/aircraft/configurations/config_1.ini ../../data/aircraft/n223wx/[K[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cp ../../data/aircraft/configurations/config_1.ini ../../data/aircraft/n223wx/[K[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cp ../../data/aircraft/configurations/config_1.ini ../../data/aircraft/n223wx/[K[A[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cp ../../data/aircraft/configurations/config_1.ini ../../data/aircraft/n223wx/[K[A[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cp ../../data/aircraft/configurations/config_1.ini ../../data/aircraft/n223wx/[K[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cp ../../data/aircraft/configurations/config_1.ini ../../data/aircraft/n223wx/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp ../../data/aircraft/configurations/config_1.ini ../../data/aircraft/n223wx/
+cp: cannot create regular file '../../data/aircraft/n223wx/': Not a directory
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cp ../../data/aircraft/configurations/config_1.ini ../../data/aircraft/n223wx/
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cp ../../data/aircraft/configurations/config_1.ini ../../data/aircraft/n223wx/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.ini ../../data/aircraft/[1Pn223wx/[A[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2.ini ../../data/aircraft/n223wx/[A[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ ls -l
+total 88
+drwxr-xr-x+ 12 codespace codespace  4096 Jul  5 17:51 [0m[01;34mconfigs[0m
+-rw-rw-rw-   1 codespace codespace 12526 Jul  5 18:14 [01;31mlab04.tgz[0m
+drwxrwxrwx+  2 root      root       4096 Jul 24 21:50 [34;42mn223wx[0m
+drwxrwxrwx+  2 codespace codespace  4096 Jul 24 21:49 [34;42mn233wx[0m
+-rw-rw-rw-   1 codespace codespace 54269 Jul 24 22:19 typescript
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ dir
+configs  lab04.tgz  n223wx  n233wx  typescript
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ rmdir n233wx
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ ls-l[Kl
+bash: ls-l: command not found
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ ls-l -l
+total 84
+drwxr-xr-x+ 12 codespace codespace  4096 Jul  5 17:51 [0m[01;34mconfigs[0m
+-rw-rw-rw-   1 codespace codespace 12526 Jul  5 18:14 [01;31mlab04.tgz[0m
+drwxrwxrwx+  2 root      root       4096 Jul 24 21:50 [34;42mn223wx[0m
+-rw-rw-rw-   1 codespace codespace 55206 Jul 24 22:20 typescript
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ diff -c ../../data/aircraf
+diff: missing operand after '../../data/aircraf'
+diff: Try 'diff --help' for more information.
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ t/n223wx/[K[K[K[K[K[K[K[K[K../../data/aircraft/n223wx/d../../data/aircraft/n223wx/i../../data/aircraft/n223wx/f../../data/aircraft/n223wx/f../../data/aircraft/n223wx/ ../../data/aircraft/n223wx/-../../data/aircraft/n223wx/c../../data/aircraft/n223wx/ ../../data/aircraft/n223wx/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconfig_1.ini ../../data/aircraft/n223wx/config_2.ini
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ diff -c ../../data/aircraft/n223wx/config_1.ini ../../data/aircraft/n223wx/config_2.ini[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ../../data/aircraft/n223wx/config_1.ini ../../data/aircraft/n22[1P3wx/config_2.ini[A[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C ../../data/aircraft/n223wx/config_1.ini ../../data/aircraft/n223[1Pwx/config_2.ini[A[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C../../data/aircraft/n223wx/config_1.ini ../../data/aircraft/n223w[1Px/config_2.ini[A[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C
+
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ diff ../../data/aircraft/n223wx/config_1.ini ../../data/aircraft/n223wx/config_2.ini[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ../../data/aircraft/n223wx/config_1.ini ../../data/aircraft/n223wx/config_2.ini[A[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C- ../../data/aircraft/n223wx/config_1.ini ../../data/aircraft/n223wx/config_2.ini[A[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[Ci ../../data/aircraft/n223wx/config_1.ini ../../data/aircraft/n223wx/config_2.ini[A[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C
+
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cd -
+/workspaces/cis190-codespace/labs
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs [0;36m([1;31mmain[0;36m) [0m$ cd -
+/workspaces/cis190-codespace/labs/lab04
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cd
+[0;32m@aarons9445 [0m➜ [1;34m~ [0m$ cd workspaces
+bash: cd: workspaces: No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m~ [0m$ ls
+[0m[01;36mjava[0m  [01;36mnvm[0m
+[0;32m@aarons9445 [0m➜ [1;34m~ [0m$ dir
+java  nvm
+[0;32m@aarons9445 [0m➜ [1;34m~ [0m$ cd -
+/workspaces/cis190-codespace/labs/lab04
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cd /workspace/[Ks/cis190-codespace
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace [0;36m([1;31mmain[0;36m) [0m$ cd data/airactf[K[K[K[Kcraft
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ cd n223wx
+[0;32m@aarons9445 [0m➜ [1;34m.../cis190-codespace/data/aircraft/n223wx [0;36m([1;31mmain[0;36m) [0m$ ls
+config_1.ini  config_2.ini
+[0;32m@aarons9445 [0m➜ [1;34m.../cis190-codespace/data/aircraft/n223wx [0;36m([1;31mmain[0;36m) [0m$ diff config_1.ini config_2.ini
+[0;32m@aarons9445 [0m➜ [1;34m.../cis190-codespace/data/aircraft/n223wx [0;36m([1;31mmain[0;36m) [0m$ diff config_1.ini config_2.ini[1@-[C[1@c[1@ 
+[0;32m@aarons9445 [0m➜ [1;34m.../cis190-codespace/data/aircraft/n223wx [0;36m([1;31mmain[0;36m) [0m$ diff -c config_1.ini config_2.ini[Kdiff
+diff: missing operand after 'diff'
+diff: Try 'diff --help' for more information.
+[0;32m@aarons9445 [1;31m➜ [1;34m.../cis190-codespace/data/aircraft/n223wx [0;36m([1;31mmain[0;36m) [0m$ diff --help
+Usage: diff [OPTION]... FILES
+Compare FILES line by line.
+
+Mandatory arguments to long options are mandatory for short options too.
+      --normal                  output a normal diff (the default)
+  -q, --brief                   report only when files differ
+  -s, --report-identical-files  report when two files are the same
+  -c, -C NUM, --context[=NUM]   output NUM (default 3) lines of copied context
+  -u, -U NUM, --unified[=NUM]   output NUM (default 3) lines of unified context
+  -e, --ed                      output an ed script
+  -n, --rcs                     output an RCS format diff
+  -y, --side-by-side            output in two columns
+  -W, --width=NUM               output at most NUM (default 130) print columns
+      --left-column             output only the left column of common lines
+      --suppress-common-lines   do not output common lines
+
+  -p, --show-c-function         show which C function each change is in
+  -F, --show-function-line=RE   show the most recent line matching RE
+      --label LABEL             use LABEL instead of file name and timestamp
+                                  (can be repeated)
+
+  -t, --expand-tabs             expand tabs to spaces in output
+  -T, --initial-tab             make tabs line up by prepending a tab
+      --tabsize=NUM             tab stops every NUM (default 8) print columns
+      --suppress-blank-empty    suppress space or tab before empty output lines
+  -l, --paginate                pass output through 'pr' to paginate it
+
+  -r, --recursive                 recursively compare any subdirectories found
+      --no-dereference            don't follow symbolic links
+  -N, --new-file                  treat absent files as empty
+      --unidirectional-new-file   treat absent first files as empty
+      --ignore-file-name-case     ignore case when comparing file names
+      --no-ignore-file-name-case  consider case when comparing file names
+  -x, --exclude=PAT               exclude files that match PAT
+  -X, --exclude-from=FILE         exclude files that match any pattern in FILE
+  -S, --starting-file=FILE        start with FILE when comparing directories
+      --from-file=FILE1           compare FILE1 to all operands;
+                                    FILE1 can be a directory
+      --to-file=FILE2             compare all operands to FILE2;
+                                    FILE2 can be a directory
+
+  -i, --ignore-case               ignore case differences in file contents
+  -E, --ignore-tab-expansion      ignore changes due to tab expansion
+  -Z, --ignore-trailing-space     ignore white space at line end
+  -b, --ignore-space-change       ignore changes in the amount of white space
+  -w, --ignore-all-space          ignore all white space
+  -B, --ignore-blank-lines        ignore changes where lines are all blank
+  -I, --ignore-matching-lines=RE  ignore changes where all lines match RE
+
+  -a, --text                      treat all files as text
+      --strip-trailing-cr         strip trailing carriage return on input
+
+  -D, --ifdef=NAME                output merged file with '#ifdef NAME' diffs
+      --GTYPE-group-format=GFMT   format GTYPE input groups with GFMT
+      --line-format=LFMT          format all input lines with LFMT
+      --LTYPE-line-format=LFMT    format LTYPE input lines with LFMT
+    These format options provide fine-grained control over the output
+      of diff, generalizing -D/--ifdef.
+    LTYPE is 'old', 'new', or 'unchanged'.  GTYPE is LTYPE or 'changed'.
+    GFMT (only) may contain:
+      %<  lines from FILE1
+      %>  lines from FILE2
+      %=  lines common to FILE1 and FILE2
+      %[-][WIDTH][.[PREC]]{doxX}LETTER  printf-style spec for LETTER
+        LETTERs are as follows for new group, lower case for old group:
+          F  first line number
+          L  last line number
+          N  number of lines = L-F+1
+          E  F-1
+          M  L+1
+      %(A=B?T:E)  if A equals B then T else E
+    LFMT (only) may contain:
+      %L  contents of line
+      %l  contents of line, excluding any trailing newline
+      %[-][WIDTH][.[PREC]]{doxX}n  printf-style spec for input line number
+    Both GFMT and LFMT may contain:
+      %%  %
+      %c'C'  the single character C
+      %c'\OOO'  the character with octal code OOO
+      C    the character C (other characters represent themselves)
+
+  -d, --minimal            try hard to find a smaller set of changes
+      --horizon-lines=NUM  keep NUM lines of the common prefix and suffix
+      --speed-large-files  assume large files and many scattered small changes
+      --color[=WHEN]       colorize the output; WHEN can be 'never', 'always',
+                             or 'auto' (the default)
+      --palette=PALETTE    the colors to use when --color is active; PALETTE is
+                             a colon-separated list of terminfo capabilities
+
+      --help               display this help and exit
+  -v, --version            output version information and exit
+
+FILES are 'FILE1 FILE2' or 'DIR1 DIR2' or 'DIR FILE' or 'FILE DIR'.
+If --from-file or --to-file is given, there are no restrictions on FILE(s).
+If a FILE is '-', read standard input.
+Exit status is 0 if inputs are the same, 1 if different, 2 if trouble.
+
+Report bugs to: bug-diffutils@gnu.org
+GNU diffutils home page: <https://www.gnu.org/software/diffutils/>
+General help using GNU software: <https://www.gnu.org/gethelp/>
+[0;32m@aarons9445 [0m➜ [1;34m.../cis190-codespace/data/aircraft/n223wx [0;36m([1;31mmain[0;36m) [0m$ diff --help[K -c config_1.ini config_2.ini[1P[1@s
+Files config_1.ini and config_2.ini are identical
+[0;32m@aarons9445 [0m➜ [1;34m.../cis190-codespace/data/aircraft/n223wx [0;36m([1;31mmain[0;36m) [0m$ cd -
+/workspaces/cis190-codespace/data/aircraft
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ cd confif[Kguratrions/mq-20
+bash: cd: configuratrions/mq-20: No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ cd configuratrions/mq-20[1Ptrions/mq-20[C[Catrions/mq-20[C[C[C[1Pions/mq-20
+[0;32m@aarons9445 [0m➜ [1;34m.../data/aircraft/configurations/mq-20 [0;36m([1;31mmain[0;36m) [0m$ file n90[K[K890mn.cgf
+n890mn.cgf: cannot open `n890mn.cgf' (No such file or directory)
+[0;32m@aarons9445 [0m➜ [1;34m.../data/aircraft/configurations/mq-20 [0;36m([1;31mmain[0;36m) [0m$ file n890mn.cgf[K[Kfg
+n890mn.cfg: empty
+[0;32m@aarons9445 [0m➜ [1;34m.../data/aircraft/configurations/mq-20 [0;36m([1;31mmain[0;36m) [0m$ file n890mn.cfg[Kcd ../..
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ cd ..
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/data [0;36m([1;31mmain[0;36m) [0m$ cd ..
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace [0;36m([1;31mmain[0;36m) [0m$ cd labs/lab04
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cd n223wx
+[0;32m@aarons9445 [0m➜ [1;34m.../cis190-codespace/labs/lab04/n223wx [0;36m([1;31mmain[0;36m) [0m$ cd n223wxlabs/lab04..[K/..file n890mn.cfggfcd configurations/mq-20rions/mq-20-[Kdiff -s config_1.ini config_2.ini-help[Ks config_1.ini config_2.ini
+diff: config_1.ini: No such file or directory
+diff: config_2.ini: No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m.../cis190-codespace/labs/lab04/n223wx [0;36m([1;31mmain[0;36m) [0m$ ls
+[0;32m@aarons9445 [0m➜ [1;34m.../cis190-codespace/labs/lab04/n223wx [0;36m([1;31mmain[0;36m) [0m$ dir
+[0;32m@aarons9445 [0m➜ [1;34m.../cis190-codespace/labs/lab04/n223wx [0;36m([1;31mmain[0;36m) [0m$ cd ..
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cd configs/n890mn
+[0;32m@aarons9445 [0m➜ [1;34m.../labs/lab04/configs/n890mn [0;36m([1;31mmain[0;36m) [0m$ file config_1.ini
+config_1.ini: bzip2 compressed data, block size = 900k
+[0;32m@aarons9445 [0m➜ [1;34m.../labs/lab04/configs/n890mn [0;36m([1;31mmain[0;36m) [0m$ ls
+config_1.ini  config_2.ini  config_3.ini  config_4.ini  config_5.ini
+[0;32m@aarons9445 [0m➜ [1;34m.../labs/lab04/configs/n890mn [0;36m([1;31mmain[0;36m) [0m$ bzcat config_1.ini
+[mission]
+mission_id = MISS-5158
+objective = Engagement
+start_time = 12:45
+duration_minutes = 180
+
+[drone]
+tail_number = n890mn
+max_altitude = 10000
+max_speed = 250
+payload_capacity = 550
+
+[camera]
+resolution = 720p
+frame_rate = 30
+infrared = True
+lidar = True
+
+[communication]
+frequency = 3.28
+encryption = AES-128
+
+[logging]
+log_level = ERROR
+log_file = /data/logs/n890mn-MISS-5158.log
+
+[waypoints]
+waypoint_1 = 84.980788, -86.016524, 1533
+waypoint_2 = 81.807711, -138.487072, 1263
+waypoint_3 = -37.341804, -58.442351, 130
+waypoint_4 = 11.15891, 155.133732, 1234
+waypoint_5 = -31.33362, 168.860799, 465
+waypoint_6 = -18.869568, 25.004442, 1343
+waypoint_7 = -88.376913, 163.880079, 1261
+waypoint_8 = -43.837074, 145.609756, 531
+waypoint_9 = -74.808728, 137.050896, 1091
+waypoint_10 = 47.512843, 154.162226, 424
+
+[0;32m@aarons9445 [0m➜ [1;34m.../labs/lab04/configs/n890mn [0;36m([1;31mmain[0;36m) [0m$ cd ..
+[0;32m@aarons9445 [0m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ cd n223wx
+[0;32m@aarons9445 [0m➜ [1;34m.../labs/lab04/configs/n223wx [0;36m([1;31mmain[0;36m) [0m$ grep mission
+
+
+^[[D^[[C^[[D^[[D                ^X
+^Xx   
+
+^[[A^[[A^[[A^[[A                ^C
+[0;32m@aarons9445 [1;31m➜ [1;34m.../labs/lab04/configs/n223wx [0;36m([1;31mmain[0;36m) [0m$ grep -l mission
+^[[A^[[B        ^C
+[0;32m@aarons9445 [1;31m➜ [1;34m.../labs/lab04/configs/n223wx [0;36m([1;31mmain[0;36m) [0m$ grep
+Usage: grep [OPTION]... PATTERNS [FILE]...
+Try 'grep --help' for more information.
+[0;32m@aarons9445 [1;31m➜ [1;34m.../labs/lab04/configs/n223wx [0;36m([1;31mmain[0;36m) [0m$ grep -i mission config_1.ini 
+[[01;31m[Kmission[m[K]
+[01;31m[Kmission[m[K_id = MISS-7913
+[0;32m@aarons9445 [0m➜ [1;34m.../labs/lab04/configs/n223wx [0;36m([1;31mmain[0;36m) [0m$ grep -i mission config_1.ini config_2.ini config_3.ini config_4.ini config_5.in i
+[35m[Kconfig_1.ini[m[K[36m[K:[m[K[[01;31m[Kmission[m[K]
+[35m[Kconfig_1.ini[m[K[36m[K:[m[K[01;31m[Kmission[m[K_id = MISS-7913
+[35m[Kconfig_2.ini[m[K[36m[K:[m[K[[01;31m[Kmission[m[K]
+[35m[Kconfig_2.ini[m[K[36m[K:[m[K[01;31m[Kmission[m[K_id = MISS-7914
+[35m[Kconfig_3.ini[m[K[36m[K:[m[K[[01;31m[Kmission[m[K]
+[35m[Kconfig_3.ini[m[K[36m[K:[m[K[01;31m[Kmission[m[K_id = MISS-9994
+[35m[Kconfig_4.ini[m[K[36m[K:[m[K[[01;31m[Kmission[m[K]
+[35m[Kconfig_4.ini[m[K[36m[K:[m[K[01;31m[Kmission[m[K_id = MISS-1386
+[35m[Kconfig_5.ini[m[K[36m[K:[m[K[[01;31m[Kmission[m[K]
+[35m[Kconfig_5.ini[m[K[36m[K:[m[K[01;31m[Kmission[m[K_id = MISS-2626
+[0;32m@aarons9445 [0m➜ [1;34m.../labs/lab04/configs/n223wx [0;36m([1;31mmain[0;36m) [0m$ grep -C [K[K[K[K[K[K[K[Khead config_1.ini
+[mission]
+mission_id = MISS-7913
+objective = Patrol
+start_time = 15:00
+duration_minutes = 360
+
+[drone]
+tail_number = n223wx
+max_altitude = 40000
+max_speed = 500
+[0;32m@aarons9445 [0m➜ [1;34m.../labs/lab04/configs/n223wx [0;36m([1;31mmain[0;36m) [0m$ cd ..
+[0;32m@aarons9445 [0m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ cd n456cd
+[0;32m@aarons9445 [0m➜ [1;34m.../labs/lab04/configs/n456cd [0;36m([1;31mmain[0;36m) [0m$ head config_1.ini
+[mission]
+mission_id = MISS-3634
+objective = Patrol
+start_time = 17:45
+duration_minutes = 360
+
+[drone]
+tail_number = n456cd
+max_altitude = 50000
+max_speed = 400
+[0;32m@aarons9445 [0m➜ [1;34m.../labs/lab04/configs/n456cd [0;36m([1;31mmain[0;36m) [0m$ tail config_2.INI[K[K[Kini
+waypoint_2 = 32.112778, -12.041067, 393
+waypoint_3 = -67.216556, 15.735837, 493
+waypoint_4 = 86.718933, -167.632601, 805
+waypoint_5 = -61.850368, 94.285816, 1970
+waypoint_6 = -42.423122, -34.781124, 1191
+waypoint_7 = 74.349059, 126.832959, 841
+waypoint_8 = -62.28365, -29.046736, 725
+waypoint_9 = 41.232856, 63.482861, 638
+waypoint_10 = 17.614067, 81.488661, 1156
+
+[0;32m@aarons9445 [0m➜ [1;34m.../labs/lab04/configs/n456cd [0;36m([1;31mmain[0;36m) [0m$ cds[K ../../..
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs [0;36m([1;31mmain[0;36m) [0m$ dir
+lab02  lab03  lab04
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs [0;36m([1;31mmain[0;36m) [0m$ cd ..
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace [0;36m([1;31mmain[0;36m) [0m$ cd data/aircraft
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ mkdir n456cd
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ mv ../../../[K[K[Klabs/lab04/n456cd/config_3.ini ../../data/aircraft/n456cd /
+mv: cannot stat '../../labs/lab04/n456cd/config_3.ini': No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ mv ../../labs/lab04/n456cd/config_3.ini ../../data/aircraft/n456cd/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.labs/lab04/n456cd/config_3.ini ../../data/aircraft/n456cd/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C.labs/lab04/n456cd/config_3.ini ../../data/aircraft/n456cd/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C/labs/lab04/n456cd/config_3.ini ../../data/aircraft/n456cd/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.data/aircraft/n456cd/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.data/aircraft/n456cd/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/data/aircraft/n456cd/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+mv: cannot stat '../../../labs/lab04/n456cd/config_3.ini': No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ mv ../../../labs/lab04/n456cd/config_3.ini ../../../data/aircraft/n456cd/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/labs/lab04/n456cd/config_3.ini ../../../data/aircraft/n4[1P56cd/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C./labs/lab04/n456cd/config_3.ini ../../../data/aircraft/n45[1P6cd/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C/labs/lab04/n456cd/config_3.ini ../../../data/aircraft/n456[1Pcd/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C/labs/lab04/n456cd/config_3.ini ../../../data/aircraft/n456c[1Pd/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C./labs/lab04/n456cd/config_3.ini ../../../data/aircraft/n456cd[1P/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C/labs/lab04/n456cd/config_3.ini ../../../data/aircraft/n456cd/[K[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C/labs/lab04/n456cd/config_3.ini ../../../data/aircraft/n456cd/ [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/data/aircraft/n456cd/[1P./data/aircraft/n456cd/[1P/data/aircraft/n456cd/[1P/data/aircraft/n456cd/[1P./data/aircraft/n456cd/[1P/data/aircraft/n456cd/[1P/data/aircraft/n456cd/[1P/data/aircraft/n456cd/
+mv: cannot stat '/labs/lab04/n456cd/config_3.ini': No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ mv /labs/lab04/n456cd/config_3.ini /data/aircraft/n456cd/[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pdata/aircraft/n456cd/
+mv: cannot stat 'labs/lab04/n456cd/config_3.ini': No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ mv labs/lab04/n456cd/config_3.ini data/aircraft/n456cd/[C[C[1@/[C[C[C[C[C[C[C[C[C[C[C[C[C[1@c[1@o[C[1@n[1@f[1@i[1@g[1@s[1@/
+mv: cannot stat '/labs/lab04/configs/n456cd/config_3.ini': No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ mv /labs/lab04/configs/n456cd/config_3.ini data/aircraft/n456cd/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kmv /labs/lab04/configs/n456cd/config_3.ini data/aircraft/n456cd/[C[C[1@../labs/lab04/configs/n456cd/config_3.ini data/aircraft/n456cd/ [A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C/labs/lab04/configs/n456cd/config_3.ini data/aircraft/n456cd/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[Clabs/lab04/configs/n456cd/config_3.ini data/aircraft/n456cd/ [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.data/aircraft/n456cd/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.data/aircraft/n456cd/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/data/aircraft/n456cd/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+mv: cannot stat '../labs/lab04/configs/n456cd/config_3.ini': No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ mv ../labs/lab04/configs/n456cd/config_3.ini ../data/aircraft/n456cd/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/labs/lab04/configs/n456cd/config_3.ini ../data/aircraft/n456cd/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C/labs/lab04/configs/n456cd/config_3.ini ../data/aircraft/n456cd/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[Clabs/lab04/configs/n456cd/config_3.ini ../data/aircraft/n456[1Pcd/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[Clabs/lab04/configs/n456cd/config_3.ini ../data/aircraft/n456c[1Pd/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C.labs/lab04/configs/n456cd/config_3.ini ../data/aircraft/n456cd/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C.labs/lab04/configs/n456cd/config_3.ini ../data/aircraft/n456cd/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C/labs/lab04/configs/n456cd/config_3.ini ../data/aircraft/n456cd/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.data/aircraft/n456cd/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.data/aircraft/n456cd/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/data/aircraft/n456cd/[A[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ cd  ../..
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace [0;36m([1;31mmain[0;36m) [0m$ cd labs/lab04/configs
+[0;32m@aarons9445 [0m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ sort tailnumbers.txt
+n101gh
+n101gh
+n101gh
+n101gh
+n112op
+n112op
+n112op
+n112op
+n112op
+n123ab
+n223wx
+n223wx
+n223wx
+n223wx
+n234ij
+n234ij
+n234ij
+n234ij
+n456cd
+n456cd
+n456cd
+n456cd
+n456cd
+n456cd
+n456cd
+n567kl
+n567kl
+n567kl
+n678st
+n678st
+n678st
+n678st
+n678st
+n789ef
+n789ef
+n789ef
+n789ef
+n890mn
+n890mn
+n890mn
+n890mn
+[0;32m@aarons9445 [0m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ qu[Kniq[K[K[K[Kuniq tailnumber.txt
+uniq: tailnumber.txt: No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ uniq tailnumber.txts.txt
+n112op
+n234ij
+n567kl
+n456cd
+n678st
+n101gh
+n123ab
+n789ef
+n223wx
+n890mn
+[0;32m@aarons9445 [0m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ cd n890mn
+[0;32m@aarons9445 [0m➜ [1;34m.../labs/lab04/configs/n890mn [0;36m([1;31mmain[0;36m) [0m$ bzip2 config_1.ini
+[0;32m@aarons9445 [0m➜ [1;34m.../labs/lab04/configs/n890mn [0;36m([1;31mmain[0;36m) [0m$ d[Kls
+[0m[01;31mconfig_1.ini.bz2[0m  config_2.ini  config_3.ini  config_4.ini  config_5.ini
+[0;32m@aarons9445 [0m➜ [1;34m.../labs/lab04/configs/n890mn [0;36m([1;31mmain[0;36m) [0m$ bunzip2 config_1.ini.bz2
+[0;32m@aarons9445 [0m➜ [1;34m.../labs/lab04/configs/n890mn [0;36m([1;31mmain[0;36m) [0m$ ls
+config_1.ini  config_2.ini  config_3.ini  config_4.ini  config_5.ini
+[0;32m@aarons9445 [0m➜ [1;34m.../labs/lab04/configs/n890mn [0;36m([1;31mmain[0;36m) [0m$ cd  .[K[K../
+[0;32m@aarons9445 [0m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ tar cvf [K[K[K[K-cvf newconfigs.tgz
+tar: Cowardly refusing to create an empty archive
+Try 'tar --help' or 'tar --usage' for more information.
+[0;32m@aarons9445 [1;31m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ tar -cvf newconfigs.tgz.newconfigs.tgz.newconfigs.tgz/newconfigs.tgz.newconfigs.tgz.newconfigs.tgz/newconfigs.tgz.newconfigs.tgz.newconfigs.tgz/newconfigs.tgzlnewconfigs.tgzanewconfigs.tgzbnewconfigs.tgz0newconfigs.tgz4newconfigs.tgz/newconfigs.tgzcnewconfigs.tgzonewconfigs.tgz[Cnewconfigs.tgzfnewconfigs.tgzinewconfigs.tgzgnewconfigs.tgz newconfigs.tgzs newconfigs.tgz[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+tar: ../../../lab04/configs: Cannot open: No such file or directory
+tar: Error is not recoverable: exiting now
+[0;32m@aarons9445 [1;31m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ tar -cvf ../../../lab04/configs newconfigs.tgz[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P newconfigs.tgzc newconfigs.tgzv newconfigs.tgzf newconfigs.tgz[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ../../../lab04/conmf[K[Kfigs
+tar: Removing leading `../../../' from member names
+tar: ../../../lab04/configs: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+[0;32m@aarons9445 [1;31m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ tar -cvf newconfigs.tgz ../../../lab04/configs\[K[C[C[C[1@z
+tar: Removing leading `../../../' from member names
+tar: ../../../lab04/configs: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+[0;32m@aarons9445 [1;31m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ tar -czvf newconfigs.tgz ../../../lab04/configs[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+tar: Cowardly refusing to create an empty archive
+Try 'tar --help' or 'tar --usage' for more information.
+[0;32m@aarons9445 [1;31m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ tar -czvf newconfigs.tgz ../../../lab04/configs[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/lab04/configs[1P/lab04/configsl/lab04/configsa/lab04/configsb/lab04/configss/lab04/configs[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+tar: Removing leading `../../' from member names
+tar: ../../labs/lab04/configs: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+[0;32m@aarons9445 [1;31m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ tar -cvf newconfigs.tgz ../../labs/lab04/configs[C[1P/../labs/lab04/configs[1P/../labs/lab04/configsw/../labs/lab04/configso/../labs/lab04/configsr/../labs/lab04/configsk/../labs/lab04/configss/../labs/lab04/configsp/../labs/lab04/configsa/../labs/lab04/configsces/../labs/lab04/configs[C[C[1P/labs/lab04/configs[1P/labs/lab04/configsc/labs/lab04/configsi/labs/lab04/configss/labs/lab04/configs1/labs/lab04/configs9/labs/lab04/configs0/labs/lab04/configs-/labs/lab04/configsc/labs/lab04/configso/labs/lab04/configsd/labs/lab04/configse/labs/lab04/configss/labs/lab04/configsp/labs/lab04/configsa/labs/lab04/configsc/labs/lab04/configs [A[0;32m@aarons9445 [1;31m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce/labs/lab04/configs[A[0;32m@aarons9445 [1;31m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+tar: workspaces/cis190-codespace/labs/lab04/configs: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+[0;32m@aarons9445 [1;31m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ tar -cvf newconfigs.tgz workspaces/cis190-codespace/labs/lab04/configs[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Czcvf newconfigs.tgz workspaces/cis190-codespace/labs/lab04/configs[A[0;32m@aarons9445 [1;31m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C
+
+tar: workspaces/cis190-codespace/labs/lab04/configs: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+[0;32m@aarons9445 [1;31m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ pwd
+/workspaces/cis190-codespace/labs/lab04/configs
+[0;32m@aarons9445 [0m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ pwdtar -zcvf newconfigs.tgz workspaces/cis190-codespace/labs/lab04/configs[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/workspaces/cis190-codespace/labs/lab04/configs[A[0;32m@aarons9445 [0m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+tar: Removing leading `/' from member names
+/workspaces/cis190-codespace/labs/lab04/configs/
+/workspaces/cis190-codespace/labs/lab04/configs/n567kl/
+/workspaces/cis190-codespace/labs/lab04/configs/n567kl/config_3.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n567kl/config_2.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n567kl/config_5.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n567kl/config_1.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n567kl/config_4.ini
+/workspaces/cis190-codespace/labs/lab04/configs/tailnumbers.txt
+/workspaces/cis190-codespace/labs/lab04/configs/n456cd/
+/workspaces/cis190-codespace/labs/lab04/configs/n456cd/config_2.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n456cd/config_5.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n456cd/config_1.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n456cd/config_4.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n789ef/
+/workspaces/cis190-codespace/labs/lab04/configs/n789ef/config_3.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n789ef/config_2.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n789ef/config_5.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n789ef/config_1.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n789ef/config_4.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n123ab/
+/workspaces/cis190-codespace/labs/lab04/configs/n123ab/config_3.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n123ab/config_2.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n123ab/config_5.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n123ab/config_1.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n123ab/config_4.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n223wx/
+/workspaces/cis190-codespace/labs/lab04/configs/n223wx/config_3.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n223wx/config_2.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n223wx/config_5.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n223wx/config_1.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n223wx/config_4.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n678st/
+/workspaces/cis190-codespace/labs/lab04/configs/n678st/config_3.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n678st/config_2.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n678st/config_5.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n678st/config_1.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n678st/config_4.ini
+/workspaces/cis190-codespace/labs/lab04/configs/newconfigs.tgz
+/workspaces/cis190-codespace/labs/lab04/configs/n890mn/
+/workspaces/cis190-codespace/labs/lab04/configs/n890mn/config_3.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n890mn/config_2.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n890mn/config_5.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n890mn/config_1.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n890mn/config_4.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n234ij/
+/workspaces/cis190-codespace/labs/lab04/configs/n234ij/config_3.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n234ij/config_2.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n234ij/config_5.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n234ij/config_1.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n234ij/config_4.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n101gh/
+/workspaces/cis190-codespace/labs/lab04/configs/n101gh/config_3.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n101gh/config_2.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n101gh/config_5.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n101gh/config_1.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n101gh/config_4.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n101gh/config_1a.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n112op/
+/workspaces/cis190-codespace/labs/lab04/configs/n112op/config_3.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n112op/config_2.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n112op/config_5.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n112op/config_1.ini
+/workspaces/cis190-codespace/labs/lab04/configs/n112op/config_4.ini
+[0;32m@aarons9445 [0m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[01;34mn101gh[0m  [01;34mn112op[0m  [01;34mn123ab[0m  [01;34mn223wx[0m  [01;34mn234ij[0m  [01;34mn456cd[0m  [01;34mn567kl[0m  [01;34mn678st[0m  [01;34mn789ef[0m  [01;34mn890mn[0m  [01;31mnewconfigs.tgz[0m  tailnumbers.txt
+[0;32m@aarons9445 [0m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ mkdir tn[Kmp
+[0;32m@aarons9445 [0m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[01;34mn101gh[0m  [01;34mn112op[0m  [01;34mn123ab[0m  [01;34mn223wx[0m  [01;34mn234ij[0m  [01;34mn456cd[0m  [01;34mn567kl[0m  [01;34mn678st[0m  [01;34mn789ef[0m  [01;34mn890mn[0m  [01;31mnewconfigs.tgz[0m  tailnumbers.txt  [34;42mtmp[0m
+[0;32m@aarons9445 [0m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ mv newconfigs.tgz ../../../lab04/congfigs/tnm[K[Kmp
+mv: cannot move 'newconfigs.tgz' to '../../../lab04/congfigs/tmp': No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ mv newconfigs.tgz ../../../lab04/congfigs/tmp/../../../lab04/congfigs/tmp
+mv: cannot move 'newconfigs.tgz' to '/../../../lab04/congfigs/tmp': No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ mv newconfigs.tgz /../../../lab04/congfigs/tmp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P4/congfigs/tmp[1P4/congfigs/tmp[1P4/congfigs/tmp[1P4/congfigs/tmp[1P4/congfigs/tmp[1P4/congfigs/tmp[1P4/congfigs/tmp[1P4/congfigs/tmp[1P4/congfigs/tmp[1P4/congfigs/tmp[1P4/congfigs/tmp[1P4/congfigs/tmp[1P4/congfigs/tmp[1P4/congfigs/tmp[1P/congfigs/tmp[1Pcongfigs/tmp.congfigs/tmp.congfigs/tmp/congfigs/tmp.congfigs/tmp.congfigs/tmp/congfigs/tmp.congfigs/tmp.congfigs/tmp/congfigs/tmp.congfigs/tmp.congfigs/tmp/congfigs/tmp[C[C[C[1Pfigs/tmp
+mv: cannot move 'newconfigs.tgz' to '../../../../configs/tmp': No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ mv newconfigs.tgz ../../../../configs/tmp[1P/configs/tmp[1P/configs/tmpl/configs/tmpa/configs/tmpb/configs/tmp0/configs/tmp4/configs/tmp
+mv: cannot move 'newconfigs.tgz' to '../../../lab04/configs/tmp': No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ mv newconfigs.tgz ../../../lab04/configs/tmp[C[C[C[C[C[1P/lab04/configs/tmp[1P/lab04/configs/tmpl/lab04/configs/tmpa/lab04/configs/tmpb/lab04/configs/tmps/lab04/configs/tmp
+mv: cannot move 'newconfigs.tgz' to '../../labs/lab04/configs/tmp': No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ mv newconfigs.tgz ../../labs/lab04/configs/tmp[C[1P/labs/lab04/configs/tmp[1P/labs/lab04/configs/tmp[C[C[C[1Plabs/lab04/configs/tmp
+mv: cannot move 'newconfigs.tgz' to '../labs/lab04/configs/tmp': No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ mv newconfigs.tgz ../labs/lab04/configs/tmp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[Kpwd
+/workspaces/cis190-codespace/labs/lab04/configs
+[0;32m@aarons9445 [0m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ pwdmv newconfigs.tgz ../labs/lab04/configs/t[K[K/tmp[C[C[1P/labs/lab04/configs/tmp[1P/labs/lab04/configs/tmp[C/labs/lab04/configs/tmpw/labs/lab04/configs/tmpo/labs/lab04/configs/tmpr/labs/lab04/configs/tmps/labs/lab04/configs/tmpp/labs/lab04/configs/tmpa/labs/lab04/configs/tmpc/labs/lab04/configs/tmpe/labs/lab04/configs/tmps/labs/lab04/configs/tmp[C/labs/lab04/configs/tmpc/labs/lab04/configs/tmpi/labs/lab04/configs/tmps/labs/lab04/configs/tmp1/labs/lab04/configs/tmp9/labs/lab04/configs/tmp0/labs/lab04/configs/tmp-/labs/lab04/configs/tmpc/labs/lab04/configs/tmpo/labs/lab04/configs/tmpd/labs/lab04/configs/tmpe/labs/lab04/configs/tmps/labs/lab04/configs/tmpp/labs/lab04/configs/tmpa/labs/lab04/configs/tmpc/labs/lab04/configs/tmpe/labs/lab04/configs/tmp
+mv: cannot move 'newconfigs.tgz' to '/worspaces/cis190-codespace/labs/lab04/configs/tmp': No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ mv newconfigs.tgz /worspaces/cis190-codespace/labs/lab04/configs/tmp[1Pworspaces/cis190-codespace/labs/lab04/configs/tmp
+mv: cannot move 'newconfigs.tgz' to 'worspaces/cis190-codespace/labs/lab04/configs/tmp': No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ mv newconfigs.tgz worspaces/cis190-codespace/labs/lab04/configs/tmp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.worspaces/cis190-codespace/labs/lab04/configs/tmp/worspaces/cis190-codespace/labs/lab04/configs/tmp [A[0;32m@aarons9445 [1;31m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+mv: cannot move 'newconfigs.tgz' to './worspaces/cis190-codespace/labs/lab04/configs/tmp': No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ mv newconfigs.tgz ./worspaces/cis190-codespace/labs/lab04/configs/tmp [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/worspaces/cis190-codespace/labs/lab04/configs/tmp
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ckspaces/cis190-codespace/labs/lab04/configs/tmp [A[0;32m@aarons9445 [1;31m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[0;32m@aarons9445 [0m➜ [1;34m.../cis190-codespace/labs/lab04/configs [0;36m([1;31mmain[0;36m) [0m$ cd tmp
+[0;32m@aarons9445 [0m➜ [1;34m.../labs/lab04/configs/tmp [0;36m([1;31mmain[0;36m) [0m$ b[Kr[Ktar -xvf newconfgi[K[Kigs.tgz
+workspaces/cis190-codespace/labs/lab04/configs/
+workspaces/cis190-codespace/labs/lab04/configs/n567kl/
+workspaces/cis190-codespace/labs/lab04/configs/n567kl/config_3.ini
+workspaces/cis190-codespace/labs/lab04/configs/n567kl/config_2.ini
+workspaces/cis190-codespace/labs/lab04/configs/n567kl/config_5.ini
+workspaces/cis190-codespace/labs/lab04/configs/n567kl/config_1.ini
+workspaces/cis190-codespace/labs/lab04/configs/n567kl/config_4.ini
+workspaces/cis190-codespace/labs/lab04/configs/tailnumbers.txt
+workspaces/cis190-codespace/labs/lab04/configs/n456cd/
+workspaces/cis190-codespace/labs/lab04/configs/n456cd/config_2.ini
+workspaces/cis190-codespace/labs/lab04/configs/n456cd/config_5.ini
+workspaces/cis190-codespace/labs/lab04/configs/n456cd/config_1.ini
+workspaces/cis190-codespace/labs/lab04/configs/n456cd/config_4.ini
+workspaces/cis190-codespace/labs/lab04/configs/n789ef/
+workspaces/cis190-codespace/labs/lab04/configs/n789ef/config_3.ini
+workspaces/cis190-codespace/labs/lab04/configs/n789ef/config_2.ini
+workspaces/cis190-codespace/labs/lab04/configs/n789ef/config_5.ini
+workspaces/cis190-codespace/labs/lab04/configs/n789ef/config_1.ini
+workspaces/cis190-codespace/labs/lab04/configs/n789ef/config_4.ini
+workspaces/cis190-codespace/labs/lab04/configs/n123ab/
+workspaces/cis190-codespace/labs/lab04/configs/n123ab/config_3.ini
+workspaces/cis190-codespace/labs/lab04/configs/n123ab/config_2.ini
+workspaces/cis190-codespace/labs/lab04/configs/n123ab/config_5.ini
+workspaces/cis190-codespace/labs/lab04/configs/n123ab/config_1.ini
+workspaces/cis190-codespace/labs/lab04/configs/n123ab/config_4.ini
+workspaces/cis190-codespace/labs/lab04/configs/n223wx/
+workspaces/cis190-codespace/labs/lab04/configs/n223wx/config_3.ini
+workspaces/cis190-codespace/labs/lab04/configs/n223wx/config_2.ini
+workspaces/cis190-codespace/labs/lab04/configs/n223wx/config_5.ini
+workspaces/cis190-codespace/labs/lab04/configs/n223wx/config_1.ini
+workspaces/cis190-codespace/labs/lab04/configs/n223wx/config_4.ini
+workspaces/cis190-codespace/labs/lab04/configs/n678st/
+workspaces/cis190-codespace/labs/lab04/configs/n678st/config_3.ini
+workspaces/cis190-codespace/labs/lab04/configs/n678st/config_2.ini
+workspaces/cis190-codespace/labs/lab04/configs/n678st/config_5.ini
+workspaces/cis190-codespace/labs/lab04/configs/n678st/config_1.ini
+workspaces/cis190-codespace/labs/lab04/configs/n678st/config_4.ini
+workspaces/cis190-codespace/labs/lab04/configs/newconfigs.tgz
+workspaces/cis190-codespace/labs/lab04/configs/n890mn/
+workspaces/cis190-codespace/labs/lab04/configs/n890mn/config_3.ini
+workspaces/cis190-codespace/labs/lab04/configs/n890mn/config_2.ini
+workspaces/cis190-codespace/labs/lab04/configs/n890mn/config_5.ini
+workspaces/cis190-codespace/labs/lab04/configs/n890mn/config_1.ini
+workspaces/cis190-codespace/labs/lab04/configs/n890mn/config_4.ini
+workspaces/cis190-codespace/labs/lab04/configs/n234ij/
+workspaces/cis190-codespace/labs/lab04/configs/n234ij/config_3.ini
+workspaces/cis190-codespace/labs/lab04/configs/n234ij/config_2.ini
+workspaces/cis190-codespace/labs/lab04/configs/n234ij/config_5.ini
+workspaces/cis190-codespace/labs/lab04/configs/n234ij/config_1.ini
+workspaces/cis190-codespace/labs/lab04/configs/n234ij/config_4.ini
+workspaces/cis190-codespace/labs/lab04/configs/n101gh/
+workspaces/cis190-codespace/labs/lab04/configs/n101gh/config_3.ini
+workspaces/cis190-codespace/labs/lab04/configs/n101gh/config_2.ini
+workspaces/cis190-codespace/labs/lab04/configs/n101gh/config_5.ini
+workspaces/cis190-codespace/labs/lab04/configs/n101gh/config_1.ini
+workspaces/cis190-codespace/labs/lab04/configs/n101gh/config_4.ini
+workspaces/cis190-codespace/labs/lab04/configs/n101gh/config_1a.ini
+workspaces/cis190-codespace/labs/lab04/configs/n112op/
+workspaces/cis190-codespace/labs/lab04/configs/n112op/config_3.ini
+workspaces/cis190-codespace/labs/lab04/configs/n112op/config_2.ini
+workspaces/cis190-codespace/labs/lab04/configs/n112op/config_5.ini
+workspaces/cis190-codespace/labs/lab04/configs/n112op/config_1.ini
+workspaces/cis190-codespace/labs/lab04/configs/n112op/config_4.ini
+[0;32m@aarons9445 [0m➜ [1;34m.../labs/lab04/configs/tmp [0;36m([1;31mmain[0;36m) [0m$ d[Kls
+[0m[01;31mnewconfigs.tgz[0m  [01;34mworkspaces[0m
+[0;32m@aarons9445 [0m➜ [1;34m.../labs/lab04/configs/tmp [0;36m([1;31mmain[0;36m) [0m$ lstar -xvf newconfigs.tgz[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd workspaceas[K[Ks
+[0;32m@aarons9445 [0m➜ [1;34m.../lab04/configs/tmp/workspaces [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[01;34mcis190-codespace[0m
+[0;32m@aarons9445 [0m➜ [1;34m.../lab04/configs/tmp/workspaces [0;36m([1;31mmain[0;36m) [0m$ whwr[K[Kereis gzip
+gzip: /usr/bin/gzip /usr/share/man/man1/gzip.1.gz /usr/share/info/gzip.info.gz
+[0;32m@aarons9445 [0m➜ [1;34m.../lab04/configs/tmp/workspaces [0;36m([1;31mmain[0;36m) [0m$ free
+              total        used        free      shared  buff/cache   available
+Mem:        8119864     1355640      246700       65140     6517524     6376672
+Swap:             0           0           0
+[0;32m@aarons9445 [0m➜ [1;34m.../lab04/configs/tmp/workspaces [0;36m([1;31mmain[0;36m) [0m$ hostname
+codespaces-047deb
+[0;32m@aarons9445 [0m➜ [1;34m.../lab04/configs/tmp/workspaces [0;36m([1;31mmain[0;36m) [0m$ uptime
+ 23:48:02 up  2:31,  0 users,  load average: 0.24, 0.16, 0.10
+[0;32m@aarons9445 [0m➜ [1;34m.../lab04/configs/tmp/workspaces [0;36m([1;31mmain[0;36m) [0m$ top
+[?1h=[?25l[H[2J(B[mtop - 23:48:08 up  2:31,  0 users,  load average: 0.22, 0.16, 0.10(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m  22 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m  21 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  6.5 (B[m[39;49mus,(B[m[39;49m[1m  9.7 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 83.9 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   7929.6 (B[m[39;49mtotal,(B[m[39;49m[1m    243.4 (B[m[39;49mfree,(B[m[39;49m[1m   1320.8 (B[m[39;49mused,(B[m[39;49m[1m   6365.3 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m      0.0 (B[m[39;49mtotal,(B[m[39;49m[1m      0.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   6230.2 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+[7m    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                      (B[m[39;49m[K
+(B[m    768 codespa+  20   0   21.5g 315368  50048 S   6.7   3.9   1:37.58 node                                                         (B[m[39;49m[K
+(B[m      1 codespa+  20   0    1136    640    640 S   0.0   0.0   0:00.21 docker-init                                                  (B[m[39;49m[K
+(B[m      7 codespa+  20   0    7236   1664   1664 S   0.0   0.0   0:00.01 sleep                                                        (B[m[39;49m[K
+(B[m     22 root      20   0   12196   3480   2560 S   0.0   0.0   0:00.00 sshd                                                         (B[m[39;49m[K
+(B[m    529 codespa+  20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh                                                           (B[m[39;49m[K
+(B[m    555 root      20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh                                                           (B[m[39;49m[K
+(B[m    700 codespa+  20   0    2624   1536   1536 S   0.0   0.0   0:00.00 sh                                                           (B[m[39;49m[K
+(B[m    709 codespa+  20   0 1315788  91780  45312 S   0.0   1.1   0:14.73 node                                                         (B[m[39;49m[K
+(B[m    851 root      20   0 1983176  88360  52608 S   0.0   1.1   0:01.05 dockerd                                                      (B[m[39;49m[K
+(B[m    858 root      20   0 1798576  46904  30848 S   0.0   0.6   0:01.89 containerd                                                   (B[m[39;49m[K
+(B[m   1004 codespa+  20   0 1240308  58388  41472 S   0.0   0.7   0:02.00 node                                                         (B[m[39;49m[K
+(B[m   1612 codespa+  20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh                                                           (B[m[39;49m[K
+(B[m   1653 root      20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh                                                           (B[m[39;49m[K
+(B[m   2404 codespa+  20   0  994928  54296  40192 S   0.0   0.7   0:00.37 node                                                         (B[m[39;49m[K
+(B[m   5918 codespa+  20   0 1142656  74876  42368 S   0.0   0.9   0:14.62 node                                                         (B[m[39;49m[K
+(B[m   5965 codespa+  20   0   16624  11520   3200 S   0.0   0.1   0:00.12 bash                                                         (B[m[39;49m[K
+(B[m   7090 codespa+  20   0    7368   2432   2304 S   0.0   0.0   0:00.37 script                                                       (B[m[39;49m[K
+(B[m   7091 codespa+  20   0   16648  11520   3200 S   0.0   0.1   0:00.76 bash                                                         (B[m[39;49m[K
+(B[m  19639 codespa+  20   0   16756  11776   3456 S   0.0   0.1   0:00.26 bash                                                         (B[m[39;49m[K
+(B[m  21865 codespa+  20   0   16492  11392   3328 S   0.0   0.1   0:00.09 bash                                                         (B[m[39;49m[K
+(B[m  22719 codespa+  20   0   16492  11520   3456 S   0.0   0.1   0:00.10 bash                                                         (B[m[39;49m[K
+(B[m[1m  76718 codespa+  20   0   10884   3712   3200 R   0.0   0.0   0:00.00 top                                                          (B[m[39;49m[K
+[J[H(B[mtop - 23:48:11 up  2:31,  0 users,  load average: 0.20, 0.16, 0.10(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  5.9 (B[m[39;49mus,(B[m[39;49m[1m  6.2 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 87.3 (B[m[39;49mid,(B[m[39;49m[1m  0.5 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   7929.6 (B[m[39;49mtotal,(B[m[39;49m[1m    253.1 (B[m[39;49mfree,(B[m[39;49m[1m   1311.1 (B[m[39;49mused,(B[m[39;49m[1m   6365.3 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m      0.0 (B[m[39;49mtotal,(B[m[39;49m[1m      0.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   6240.0 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m    768 codespa+  20   0   21.5g 317416  50048 S   2.0   3.9   1:37.64 node                                                         (B[m[39;49m[K
+(B[m    709 codespa+  20   0 1315788  92388  45312 S   1.0   1.1   0:14.76 node                                                         (B[m[39;49m[K
+(B[m   5918 codespa+  20   0 1142656  75004  42368 S   0.3   0.9   0:14.63 node                                                         (B[m[39;49m[K
+(B[m      1 codespa+  20   0    1136    640    640 S   0.0   0.0   0:00.21 docker-init                                                  (B[m[39;49m[K
+(B[m      7 codespa+  20   0    7236   1664   1664 S   0.0   0.0   0:00.01 sleep                                                        (B[m[39;49m[K
+(B[m     22 root      20   0   12196   3480   2560 S   0.0   0.0   0:00.00 sshd                                                         (B[m[39;49m[K
+(B[m    529 codespa+  20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh                                                           (B[m[39;49m[K
+(B[m    555 root      20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh                                                           (B[m[39;49m[K
+(B[m    700 codespa+  20   0    2624   1536   1536 S   0.0   0.0   0:00.00 sh                                                           (B[m[39;49m[K
+(B[m    851 root      20   0 1983176  88360  52608 S   0.0   1.1   0:01.05 dockerd                                                      (B[m[39;49m[K
+(B[m    858 root      20   0 1798576  46904  30848 S   0.0   0.6   0:01.89 containerd                                                   (B[m[39;49m[K
+(B[m   1004 codespa+  20   0 1240308  58388  41472 S   0.0   0.7   0:02.00 node                                                         (B[m[39;49m[K
+(B[m   1612 codespa+  20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh                                                           (B[m[39;49m[K
+(B[m   1653 root      20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh                                                           (B[m[39;49m[K
+(B[m   2404 codespa+  20   0  994928  54296  40192 S   0.0   0.7   0:00.37 node                                                         (B[m[39;49m[K
+
+
+
+
+
+
+
+[J[H(B[mtop - 23:48:14 up  2:31,  0 users,  load average: 0.20, 0.16, 0.10(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  1.2 (B[m[39;49mus,(B[m[39;49m[1m  2.5 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 96.3 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   7929.6 (B[m[39;49mtotal,(B[m[39;49m[1m    252.9 (B[m[39;49mfree,(B[m[39;49m[1m   1311.2 (B[m[39;49mused,(B[m[39;49m[1m   6365.4 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m      0.0 (B[m[39;49mtotal,(B[m[39;49m[1m      0.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   6239.8 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m    768 codespa+  20   0   21.5g 317416  50048 S   1.0   3.9   1:37.67 node                                                         (B[m[39;49m[K
+(B[m      1 codespa+  20   0    1136    640    640 S   0.0   0.0   0:00.21 docker-init                                                  (B[m[39;49m[K
+(B[m      7 codespa+  20   0    7236   1664   1664 S   0.0   0.0   0:00.01 sleep                                                        (B[m[39;49m[K
+(B[m     22 root      20   0   12196   3480   2560 S   0.0   0.0   0:00.00 sshd                                                         (B[m[39;49m[K
+(B[m    529 codespa+  20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh                                                           (B[m[39;49m[K
+(B[m    555 root      20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh                                                           (B[m[39;49m[K
+(B[m    700 codespa+  20   0    2624   1536   1536 S   0.0   0.0   0:00.00 sh                                                           (B[m[39;49m[K
+(B[m    709 codespa+  20   0 1315788  92516  45312 S   0.0   1.1   0:14.76 node                                                         (B[m[39;49m[K
+(B[m    851 root      20   0 1983176  88360  52608 S   0.0   1.1   0:01.05 dockerd                                                      (B[m[39;49m[K
+(B[m    858 root      20   0 1798576  46904  30848 S   0.0   0.6   0:01.89 containerd                                                   (B[m[39;49m[K
+(B[m   1004 codespa+  20   0 1240308  58388  41472 S   0.0   0.7   0:02.00 node                                                         (B[m[39;49m[K
+(B[m   1612 codespa+  20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh                                                           (B[m[39;49m[K
+(B[m   1653 root      20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh                                                           (B[m[39;49m[K
+(B[m   2404 codespa+  20   0  994928  54296  40192 S   0.0   0.7   0:00.37 node                                                         (B[m[39;49m[K
+(B[m   5918 codespa+  20   0 1142788  75260  42368 S   0.0   0.9   0:14.63 node                                                         (B[m[39;49m[K
+
+
+
+
+
+
+
+[J[6;1H[7m Unknown command - try 'h' for help [?25l(B[m[39;49m[K[?25l[H(B[mtop - 23:48:16 up  2:31,  0 users,  load average: 0.19, 0.15, 0.10(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m  25 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m  24 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  5.0 (B[m[39;49mus,(B[m[39;49m[1m  5.4 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 88.9 (B[m[39;49mid,(B[m[39;49m[1m  0.7 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   7929.6 (B[m[39;49mtotal,(B[m[39;49m[1m    251.9 (B[m[39;49mfree,(B[m[39;49m[1m   1312.1 (B[m[39;49mused,(B[m[39;49m[1m   6365.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m      0.0 (B[m[39;49mtotal,(B[m[39;49m[1m      0.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   6239.0 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m    768 codespa+  20   0   21.5g 315280  50048 S   2.4   3.9   1:37.72 node                                                         (B[m[39;49m[K
+(B[m   5918 codespa+  20   0 1142788  74524  42368 S   1.4   0.9   0:14.66 node                                                         (B[m[39;49m[K
+(B[m    709 codespa+  20   0 1315788  91808  45312 S   0.5   1.1   0:14.77 node                                                         (B[m[39;49m[K
+(B[m      1 codespa+  20   0    1136    640    640 S   0.0   0.0   0:00.21 docker-init                                                  (B[m[39;49m[K
+(B[m      7 codespa+  20   0    7236   1664   1664 S   0.0   0.0   0:00.01 sleep                                                        (B[m[39;49m[K
+(B[m     22 root      20   0   12196   3480   2560 S   0.0   0.0   0:00.00 sshd                                                         (B[m[39;49m[K
+(B[m    529 codespa+  20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh                                                           (B[m[39;49m[K
+(B[m    555 root      20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh                                                           (B[m[39;49m[K
+(B[m    700 codespa+  20   0    2624   1536   1536 S   0.0   0.0   0:00.00 sh                                                           (B[m[39;49m[K
+(B[m    851 root      20   0 1983176  88360  52608 S   0.0   1.1   0:01.05 dockerd                                                      (B[m[39;49m[K
+(B[m    858 root      20   0 1798576  46904  30848 S   0.0   0.6   0:01.89 containerd                                                   (B[m[39;49m[K
+(B[m   1004 codespa+  20   0 1240308  58388  41472 S   0.0   0.7   0:02.00 node                                                         (B[m[39;49m[K
+(B[m   1612 codespa+  20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh                                                           (B[m[39;49m[K
+(B[m   1653 root      20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh                                                           (B[m[39;49m[K
+(B[m   2404 codespa+  20   0  994928  54296  40192 S   0.0   0.7   0:00.37 node                                                         (B[m[39;49m[K
+
+
+
+
+
+
+
+(B[m  76833 codespa+  20   0    2620   1536   1536 S   0.0   0.0   0:00.00 sh                                                           (B[m[39;49m[K
+(B[m  76834 codespa+  20   0    8628   3072   2816 S   0.0   0.0   0:00.00 cpuUsage.sh                                                  (B[m[39;49m[K
+(B[m  76840 codespa+  20   0    7240   1920   1920 S   0.0   0.0   0:00.00 sleep                                                        (B[m[39;49m[K
+[J[?25l[H
+
+%Cpu(s):(B[m[39;49m[1m  0.0 (B[m[39;49mus,(B[m[39;49m[1m  0.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m100.0 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+
+
+[K
+
+(B[m      1 codespa+  20   0    1136    640    640 S   0.0   0.0   0:00.21 docker-init                                                  (B[m[39;49m[K
+(B[m      7 codespa+  20   0    7236   1664   1664 S   0.0   0.0   0:00.01 sleep                                                        (B[m[39;49m[K
+(B[m     22 root      20   0   12196   3480   2560 S   0.0   0.0   0:00.00 sshd                                                         (B[m[39;49m[K
+(B[m    529 codespa+  20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh                                                           (B[m[39;49m[K
+(B[m    555 root      20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh                                                           (B[m[39;49m[K
+(B[m    700 codespa+  20   0    2624   1536   1536 S   0.0   0.0   0:00.00 sh                                                           (B[m[39;49m[K
+(B[m    709 codespa+  20   0 1315788  91808  45312 S   0.0   1.1   0:14.77 node                                                         (B[m[39;49m[K
+(B[m    768 codespa+  20   0   21.5g 315280  50048 S   0.0   3.9   1:37.72 node                                                         (B[m[39;49m[K
+(B[m    851 root      20   0 1983176  88360  52608 S   0.0   1.1   0:01.05 dockerd                                                      (B[m[39;49m[K
+(B[m    858 root      20   0 1798576  46904  30848 S   0.0   0.6   0:01.89 containerd                                                   (B[m[39;49m[K
+(B[m   1004 codespa+  20   0 1240308  58388  41472 S   0.0   0.7   0:02.00 node                                                         (B[m[39;49m[K
+(B[m   1612 codespa+  20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh                                                           (B[m[39;49m[K
+(B[m   1653 root      20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh                                                           (B[m[39;49m[K
+(B[m   2404 codespa+  20   0  994928  54296  40192 S   0.0   0.7   0:00.37 node                                                         (B[m[39;49m[K
+(B[m   5918 codespa+  20   0 1142788  74524  42368 S   0.0   0.9   0:14.66 node                                                         (B[m[39;49m[K
+
+
+
+
+
+
+
+
+
+
+[J[?1l>[42;1H
+[?12l[?25h[K[0;32m@aarons9445 [0m➜ [1;34m.../lab04/configs/tmp/workspaces [0;36m([1;31mmain[0;36m) [0m$ date
+Wed Jul 24 23:48:32 UTC 2024
+[0;32m@aarons9445 [0m➜ [1;34m.../lab04/configs/tmp/workspaces [0;36m([1;31mmain[0;36m) [0m$ ehco [K[K[K[Kcho "Hello from Gent[Keral Atomics!"
+Hello from General Atomics!
+[0;32m@aarons9445 [0m➜ [1;34m.../lab04/configs/tmp/workspaces [0;36m([1;31mmain[0;36m) [0m$ exit
+exit
+
+Script done on 2024-07-24 23:51:14+00:00 [COMMAND_EXIT_CODE="0"]
