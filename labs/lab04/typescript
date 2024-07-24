@@ -1,0 +1,242 @@
+Script started on 2024-07-24 21:32:42+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="176" LINES="41"]
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ sudo apt update
+[33m0% [Working][0m            Get:1 http://archive.ubuntu.com/ubuntu focal InRelease [265 kB]
+[33m0% [1 InRelease 16.8 kB/265 kB 6%] [Connecting to security.ubuntu.com (185.125.190.82)] [Connected to repo.anaconda.com (104.16.32.241)] [Connecting to packagecloud.io (54.183[0m                                                                                                                                                                               Get:2 https://dl.yarnpkg.com/debian stable InRelease [17.1 kB]
+[33m0% [1 InRelease 141 kB/265 kB 53%] [Connecting to security.ubuntu.com (185.125.190.82)] [Waiting for headers] [Connecting to packagecloud.io (54.183.1.9)] [Waiting for headers[0m[33m0% [1 InRelease 214 kB/265 kB 81%] [Connecting to security.ubuntu.com (185.125.190.82)] [Waiting for headers] [Connecting to packagecloud.io (54.183.1.9)] [Waiting for headers[0m                                                                                                                                                                               Get:3 https://packages.microsoft.com/repos/microsoft-ubuntu-focal-prod focal InRelease [3632 B]
+[33m                                                                                                                                                                               0% [1 InRelease 247 kB/265 kB 93%] [Waiting for headers] [Waiting for headers] [Connecting to packagecloud.io (54.183.1.9)] [3 InRelease 0 B/3632 B 0%][0m[33m                                                                                                                                                       0% [1 InRelease 247 kB/265 kB 93%] [Waiting for headers] [Waiting for headers] [Connecting to packagecloud.io (54.183.1.9)][0m[33m                                                                                                                           0% [Waiting for headers] [Waiting for headers] [Connecting to packagecloud.io (54.183.1.9)][0m                                                                                           Get:4 http://archive.ubuntu.com/ubuntu focal-updates InRelease [128 kB]
+[33m0% [4 InRelease 51.1 kB/128 kB 40%] [Waiting for headers] [Waiting for headers] [Connecting to packagecloud.io (54.183.1.9)][0m[33m                                                                                                                            0% [Waiting for headers] [Waiting for headers] [Waiting for headers] [Connecting to packagecloud.io (54.183.1.9)][0m                                                                                                                 Get:5 http://archive.ubuntu.com/ubuntu focal-backports InRelease [128 kB]
+                                                                                                                 Get:6 https://repo.anaconda.com/pkgs/misc/debrepo/conda stable InRelease [3961 B]
+[33m0% [5 InRelease 117 kB/128 kB 91%] [Waiting for headers] [6 InRelease 3961 B/3961 B 100%] [Connected to packagecloud.io (54.183.1.9)][0m[33m                                                                                                                                     0% [Waiting for headers] [6 InRelease 3961 B/3961 B 100%] [Connected to packagecloud.io (54.183.1.9)][0m[33m                                                                                                     0% [Waiting for headers] [Connected to packagecloud.io (54.183.1.9)][0m                                                                    Get:7 http://security.ubuntu.com/ubuntu focal-security InRelease [128 kB]
+[33m0% [7 InRelease 14.0 kB/128 kB 11%] [Connected to packagecloud.io (54.183.1.9)][0m[33m0% [7 InRelease 14.0 kB/128 kB 11%] [Connected to packagecloud.io (54.183.1.9)][0m                                                                               Get:8 https://dl.yarnpkg.com/debian stable/main all Packages [11.8 kB]
+[33m0% [7 InRelease 34.0 kB/128 kB 27%] [Connected to packagecloud.io (54.183.1.9)][0m[33m0% [8 Packages store 0 B] [7 InRelease 36.8 kB/128 kB 29%] [Waiting for headers] [Waiting for headers][0m[33m                                                                                                      0% [7 InRelease 39.7 kB/128 kB 31%] [Waiting for headers] [Waiting for headers][0m                                                                               Get:9 https://dl.yarnpkg.com/debian stable/main amd64 Packages [11.8 kB]
+[33m0% [7 InRelease 42.5 kB/128 kB 33%] [Waiting for headers] [9 Packages 11.8 kB/11.8 kB 100%][0m[33m                                                                                           0% [7 InRelease 42.5 kB/128 kB 33%] [Waiting for headers][0m[33m0% [9 Packages store 0 B] [7 InRelease 42.5 kB/128 kB 33%] [Waiting for headers][0m[33m                                                                                0% [7 InRelease 42.5 kB/128 kB 33%] [Waiting for headers][0m[33m0% [7 InRelease 42.5 kB/128 kB 33%] [Waiting for headers][0m                                                         Get:10 https://packages.microsoft.com/repos/microsoft-ubuntu-focal-prod focal/main amd64 Packages [302 kB]
+[33m0% [7 InRelease 56.8 kB/128 kB 44%] [Waiting for headers] [10 Packages 15.3 kB/302 kB 5%][0m[33m                                                                                         0% [7 InRelease 71.1 kB/128 kB 56%] [10 Packages 302 kB/302 kB 100%][0m[33m                                                                    0% [7 InRelease 71.1 kB/128 kB 56%][0m[33m0% [10 Packages store 0 B] [7 InRelease 71.1 kB/128 kB 56%] [Waiting for headers][0m                                                                                 Get:12 https://packages.microsoft.com/repos/microsoft-ubuntu-focal-prod focal/main all Packages [2714 B]
+[33m0% [10 Packages store 0 B] [7 InRelease 76.8 kB/128 kB 60%] [12 Packages 2714 B/2714 B 100%][0m[33m                                                                                            0% [10 Packages store 0 B] [7 InRelease 79.7 kB/128 kB 62%][0m[33m                                                           0% [7 InRelease 88.2 kB/128 kB 69%][0m[33m0% [12 Packages store 0 B] [7 InRelease 88.2 kB/128 kB 69%][0m[33m                                                           0% [7 InRelease 88.2 kB/128 kB 69%][0m[33m0% [Connecting to d3fo0g5hm7lbuv.cloudfront.net][0m                                                Get:11 https://packagecloud.io/github/git-lfs/ubuntu focal InRelease [28.0 kB]
+[33m                                                0% [11 InRelease 28.0 kB/28.0 kB 100%][0m[33m                                      0% [Working][0m[33m0% [Working][0m            Get:13 http://archive.ubuntu.com/ubuntu focal/restricted amd64 Packages [33.4 kB]
+[33m0% [13 Packages 25.5 kB/33.4 kB 76%][0m[33m                                    0% [Working][0m[33m0% [Working][0m            Get:14 http://archive.ubuntu.com/ubuntu focal/main amd64 Packages [1275 kB]
+[33m0% [14 Packages 25.5 kB/1275 kB 2%][0m                                   Get:15 http://archive.ubuntu.com/ubuntu focal/multiverse amd64 Packages [177 kB]
+                                   Get:16 http://archive.ubuntu.com/ubuntu focal/universe amd64 Packages [11.3 MB]
+[33m0% [16 Packages 65.5 kB/11.3 MB 1%][0m[33m0% [14 Packages store 0 B] [16 Packages 65.5 kB/11.3 MB 1%][0m[33m                                                           0% [16 Packages 6357 kB/11.3 MB 56%][0m[33m0% [15 Packages store 0 B] [16 Packages 6423 kB/11.3 MB 57%][0m[33m                                                            0% [16 Packages 7668 kB/11.3 MB 68%][0m[33m0% [16 Packages 8651 kB/11.3 MB 76%][0m[33m                                    0% [Working][0m[33m0% [16 Packages store 0 B][0m                          Get:17 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [1535 kB]
+[33m0% [16 Packages store 0 B] [17 Packages 714 kB/1535 kB 47%][0m[33m                                                           0% [16 Packages store 0 B][0m                          Get:18 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [4274 kB]
+[33m0% [16 Packages store 0 B] [18 Packages 0 B/4274 kB 0%][0m[33m                                                       0% [16 Packages store 0 B][0m                          Get:19 http://archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packages [3932 kB]
+[33m0% [16 Packages store 0 B] [19 Packages 0 B/3932 kB 0%][0m[33m                                                       0% [16 Packages store 0 B][0m                          Get:20 http://archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 Packages [33.5 kB]
+[33m0% [16 Packages store 0 B] [20 Packages 0 B/33.5 kB 0%][0m[33m                                                       0% [16 Packages store 0 B][0m[33m0% [16 Packages store 0 B][0m                          Get:21 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 Packages [28.6 kB]
+[33m0% [16 Packages store 0 B] [21 Packages 28.6 kB/28.6 kB 100%][0m[33m                                                             0% [16 Packages store 0 B][0m                          Get:22 http://archive.ubuntu.com/ubuntu focal-backports/main amd64 Packages [55.2 kB]
+[33m0% [16 Packages store 0 B] [22 Packages 55.2 kB/55.2 kB 100%][0m[33m                                                             0% [16 Packages store 0 B][0m[33m0% [16 Packages store 0 B][0m                          Get:23 https://repo.anaconda.com/pkgs/misc/debrepo/conda stable/main amd64 Packages [4557 B]
+[33m0% [16 Packages store 0 B] [23 Packages 4557 B/4557 B 100%][0m[33m                                                           0% [16 Packages store 0 B][0m[33m0% [16 Packages store 0 B][0m[33m73% [16 Packages store 0 B] [Waiting for headers][0m                                                 Get:24 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [3809 kB]
+[33m73% [16 Packages store 0 B] [24 Packages 5501 B/3809 kB 0%] [Connecting to packagecloud.io (54.183.1.9)][0m[33m                                                                                                        75% [24 Packages 697 kB/3809 kB 18%] [Waiting for headers][0m[33m75% [17 Packages store 0 B] [24 Packages 697 kB/3809 kB 18%] [Waiting for headers][0m[33m                                                                                  76% [17 Packages store 0 B] [24 Packages 1281 kB/3809 kB 34%][0m                                                             Get:25 https://packagecloud.io/github/git-lfs/ubuntu focal/main amd64 Packages [3690 B]
+[33m77% [17 Packages store 0 B] [24 Packages 1364 kB/3809 kB 36%][0m[33m                                                             77% [24 Packages 1429 kB/3809 kB 38%][0m[33m77% [18 Packages store 0 B] [24 Packages 1429 kB/3809 kB 38%][0m[33m                                                             83% [18 Packages store 0 B][0m                           Get:26 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 Packages [30.9 kB]
+[33m83% [18 Packages store 0 B] [26 Packages 0 B/30.9 kB 0%][0m[33m                                                        83% [18 Packages store 0 B][0m                           Get:27 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 Packages [3780 kB]
+[33m83% [18 Packages store 0 B] [27 Packages 0 B/3780 kB 0%][0m[33m                                                        84% [27 Packages 262 kB/3780 kB 7%][0m[33m84% [19 Packages store 0 B] [27 Packages 262 kB/3780 kB 7%][0m[33m                                                           93% [19 Packages store 0 B][0m                           Get:28 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [1250 kB]
+[33m93% [19 Packages store 0 B] [28 Packages 0 B/1250 kB 0%][0m[33m                                                        96% [19 Packages store 0 B][0m[33m                           96% [Working][0m[33m96% [20 Packages store 0 B][0m[33m                           97% [Working][0m[33m97% [21 Packages store 0 B][0m[33m                           97% [Working][0m[33m97% [22 Packages store 0 B][0m[33m                           98% [Working][0m[33m98% [23 Packages store 0 B][0m[33m                           98% [Working][0m[33m98% [25 Packages store 0 B][0m[33m                           98% [Working][0m[33m98% [24 Packages store 0 B][0m[33m                           99% [Working][0m[33m99% [26 Packages store 0 B][0m[33m                           99% [Working][0m[33m99% [27 Packages store 0 B][0m[33m                           100% [Working][0m[33m100% [28 Packages store 0 B][0m[33m                            100% [Working][0m              Fetched 32.6 MB in 3s (12.9 MB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 4%Reading package lists... 4%Reading package lists... 38%Reading package lists... 38%Reading package lists... 39%Reading package lists... 39%Reading package lists... 52%Reading package lists... 52%Reading package lists... 65%Reading package lists... 65%Reading package lists... 69%Reading package lists... 69%Reading package lists... 69%Reading package lists... 69%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 81%Reading package lists... 81%Reading package lists... 94%Reading package lists... 94%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+42 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ sudo apt update[K[K[K[K[K[Kinstall wget
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 4%Reading package lists... 4%Reading package lists... 38%Reading package lists... 38%Reading package lists... 39%Reading package lists... 39%Reading package lists... 52%Reading package lists... 52%Reading package lists... 65%Reading package lists... 65%Reading package lists... 69%Reading package lists... 69%Reading package lists... 69%Reading package lists... 69%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 81%Reading package lists... 81%Reading package lists... 82%Reading package lists... 94%Reading package lists... 94%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages will be upgraded:
+  wget
+1 upgraded, 0 newly installed, 0 to remove and 41 not upgraded.
+Need to get 349 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+[33m0% [Working][0m            Get:1 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 wget amd64 1.20.3-1ubuntu2.1 [349 kB]
+[33m3% [1 wget 14.0 kB/349 kB 4%][0m[33m                             100% [Working][0m              Fetched 349 kB in 0s (3611 kB/s)
+
+7[0;40r8[1A(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 70090 files and directories currently installed.)
+Preparing to unpack .../wget_1.20.3-1ubuntu2.1_amd64.deb ...
+7[41;0f[42m[30mProgress: [  0%][49m[39m [..........................................................................................................................................................] 87[41;0f[42m[30mProgress: [ 20%][49m[39m [##############################............................................................................................................................] 8Unpacking wget (1.20.3-1ubuntu2.1) over (1.20.3-1ubuntu2) ...
+7[41;0f[42m[30mProgress: [ 40%][49m[39m [#############################################################.............................................................................................] 8Setting up wget (1.20.3-1ubuntu2.1) ...
+7[41;0f[42m[30mProgress: [ 60%][49m[39m [############################################################################################..............................................................] 87[41;0f[42m[30mProgress: [ 80%][49m[39m [###########################################################################################################################...............................] 8Processing triggers for man-db (2.9.1-1) ...
+
+7[0;41r8[1A[J[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ wget https://boss.vvc.edu/tonning/classes/cis190/resources/lab04.tgz
+--2024-07-24 21:40:13--  https://boss.vvc.edu/tonning/classes/cis190/resources/lab04.tgz
+Resolving boss.vvc.edu (boss.vvc.edu)... 207.233.102.33
+Connecting to boss.vvc.edu (boss.vvc.edu)|207.233.102.33|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 12526 (12K) [application/octet-stream]
+Saving to: ‘lab04.tgz’
+
+lab04.tgz                                     0%[                                                                                            ]       0  --.-KB/s               lab04.tgz                                   100%[===========================================================================================>]  12.23K  --.-KB/s    in 0.04s   
+
+2024-07-24 21:40:14 (312 KB/s) - ‘lab04.tgz’ saved [12526/12526]
+
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ tar alice.txt[K[K[K[K[K[K[K[K[Klab04.tgz
+tar: Old option 'b' requires an argument.
+Try 'tar --help' or 'tar --usage' for more information.
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ tar lab04.tgz[C lab04.tgz- lab04.tgzj lab04.tgzz lab04.tgz[1P lab04.tgzv lab04.tgzt lab04.tgzf lab04.tgz
+bzip2: (stdin) is not a bzip2 file.
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ tar -jvtf lab04.tgz[1P[C[1@v
+bzip2: (stdin) is not a bzip2 file.
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ dir
+lab04.tgz  typescript
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ tar -t lab04.tyg[K[Kh[Kgz
+tar: Refusing to read archive contents from terminal (missing -f option?)
+tar: Error is not recoverable: exiting now
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ tar -t lab04.tgzf lab04.tgz
+configs/
+configs/n567kl/
+configs/n123ab/
+configs/tailnumbers.txt
+configs/n678st/
+configs/n112op/
+configs/n223wx/
+configs/n101gh/
+configs/n789ef/
+configs/n234ij/
+configs/n890mn/
+configs/n456cd/
+configs/n456cd/config_4.ini
+configs/n456cd/config_5.ini
+configs/n456cd/config_2.ini
+configs/n456cd/config_3.ini
+configs/n456cd/config_1.ini
+configs/n890mn/config_4.ini
+configs/n890mn/config_5.ini
+configs/n890mn/config_2.ini
+configs/n890mn/config_3.ini
+configs/n890mn/config_1.ini
+configs/n234ij/config_4.ini
+configs/n234ij/config_5.ini
+configs/n234ij/config_2.ini
+configs/n234ij/config_3.ini
+configs/n234ij/config_1.ini
+configs/n789ef/config_4.ini
+configs/n789ef/config_5.ini
+configs/n789ef/config_2.ini
+configs/n789ef/config_3.ini
+configs/n789ef/config_1.ini
+configs/n101gh/config_4.ini
+configs/n101gh/config_5.ini
+configs/n101gh/config_2.ini
+configs/n101gh/config_3.ini
+configs/n101gh/config_1.ini
+configs/n101gh/config_1a.ini
+configs/n223wx/config_4.ini
+configs/n223wx/config_5.ini
+configs/n223wx/config_2.ini
+configs/n223wx/config_3.ini
+configs/n223wx/config_1.ini
+configs/n112op/config_4.ini
+configs/n112op/config_5.ini
+configs/n112op/config_2.ini
+configs/n112op/config_3.ini
+configs/n112op/config_1.ini
+configs/n678st/config_4.ini
+configs/n678st/config_5.ini
+configs/n678st/config_2.ini
+configs/n678st/config_3.ini
+configs/n678st/config_1.ini
+configs/n123ab/config_4.ini
+configs/n123ab/config_5.ini
+configs/n123ab/config_2.ini
+configs/n123ab/config_3.ini
+configs/n123ab/config_1.ini
+configs/n567kl/config_4.ini
+configs/n567kl/config_5.ini
+configs/n567kl/config_2.ini
+configs/n567kl/config_3.ini
+configs/n567kl/config_1.ini
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ tar -xvf lab04.tgz
+configs/
+configs/n567kl/
+configs/n123ab/
+configs/tailnumbers.txt
+configs/n678st/
+configs/n112op/
+configs/n223wx/
+configs/n101gh/
+configs/n789ef/
+configs/n234ij/
+configs/n890mn/
+configs/n456cd/
+configs/n456cd/config_4.ini
+configs/n456cd/config_5.ini
+configs/n456cd/config_2.ini
+configs/n456cd/config_3.ini
+configs/n456cd/config_1.ini
+configs/n890mn/config_4.ini
+configs/n890mn/config_5.ini
+configs/n890mn/config_2.ini
+configs/n890mn/config_3.ini
+configs/n890mn/config_1.ini
+configs/n234ij/config_4.ini
+configs/n234ij/config_5.ini
+configs/n234ij/config_2.ini
+configs/n234ij/config_3.ini
+configs/n234ij/config_1.ini
+configs/n789ef/config_4.ini
+configs/n789ef/config_5.ini
+configs/n789ef/config_2.ini
+configs/n789ef/config_3.ini
+configs/n789ef/config_1.ini
+configs/n101gh/config_4.ini
+configs/n101gh/config_5.ini
+configs/n101gh/config_2.ini
+configs/n101gh/config_3.ini
+configs/n101gh/config_1.ini
+configs/n101gh/config_1a.ini
+configs/n223wx/config_4.ini
+configs/n223wx/config_5.ini
+configs/n223wx/config_2.ini
+configs/n223wx/config_3.ini
+configs/n223wx/config_1.ini
+configs/n112op/config_4.ini
+configs/n112op/config_5.ini
+configs/n112op/config_2.ini
+configs/n112op/config_3.ini
+configs/n112op/config_1.ini
+configs/n678st/config_4.ini
+configs/n678st/config_5.ini
+configs/n678st/config_2.ini
+configs/n678st/config_3.ini
+configs/n678st/config_1.ini
+configs/n123ab/config_4.ini
+configs/n123ab/config_5.ini
+configs/n123ab/config_2.ini
+configs/n123ab/config_3.ini
+configs/n123ab/config_1.ini
+configs/n567kl/config_4.ini
+configs/n567kl/config_5.ini
+configs/n567kl/config_2.ini
+configs/n567kl/config_3.ini
+configs/n567kl/config_1.ini
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ ls -l
+total 48
+drwxr-xr-x+ 12 codespace codespace  4096 Jul  5 17:51 [0m[01;34mconfigs[0m
+-rw-rw-rw-   1 codespace codespace 12526 Jul  5 18:14 [01;31mlab04.tgz[0m
+-rw-rw-rw-   1 codespace codespace 25401 Jul 24 21:46 typescript
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ ls -l configs
+total 44
+drwxr-xr-x+ 2 codespace codespace 4096 Jul 24 21:46 [0m[01;34mn101gh[0m
+drwxr-xr-x+ 2 codespace codespace 4096 Jul 24 21:46 [01;34mn112op[0m
+drwxr-xr-x+ 2 codespace codespace 4096 Jul 24 21:46 [01;34mn123ab[0m
+drwxr-xr-x+ 2 codespace codespace 4096 Jul 24 21:46 [01;34mn223wx[0m
+drwxr-xr-x+ 2 codespace codespace 4096 Jul 24 21:46 [01;34mn234ij[0m
+drwxr-xr-x+ 2 codespace codespace 4096 Jul  5 17:54 [01;34mn456cd[0m
+drwxr-xr-x+ 2 codespace codespace 4096 Jul 24 21:46 [01;34mn567kl[0m
+drwxr-xr-x+ 2 codespace codespace 4096 Jul 24 21:46 [01;34mn678st[0m
+drwxr-xr-x+ 2 codespace codespace 4096 Jul 24 21:46 [01;34mn789ef[0m
+drwxr-xr-x+ 2 codespace codespace 4096 Jul 24 21:46 [01;34mn890mn[0m
+-rw-r--r--  1 codespace codespace  287 Jul  5 17:51 tailnumbers.txt
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ mkdir n233wx data/aircraft
+mkdir: cannot create directory ‘data/aircraft’: No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ mkdir n233wx data/aircraft[C/data/aircraft
+mkdir: cannot create directory ‘n233wx’: File exists
+mkdir: cannot create directory ‘/data/aircraft’: Permission denied
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ su[K[Kmkdir n233wx /data/aircraft[1@s[1@u[1@d[1@o[1@ 
+mkdir: cannot create directory ‘n233wx’: File exists
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ sudo mkdir n233wx /data/aircraft[C[C[1P[1@2
+mkdir: cannot create directory ‘/data/aircraft’: File exists
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ mkdir /data/aircraft/n223wx
+mkdir: cannot create directory ‘/data/aircraft/n223wx’: Permission denied
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ mkdir /data/aircraft/n223wx[1@s[1@u[1@d[1@o[1@ 
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cp /data/aircraft/configurations/config_1.ini /data/aircraft/n223wx
+cp: cannot stat '/data/aircraft/configurations/config_1.ini': No such file or directory
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ 
