@@ -1,0 +1,131 @@
+Script started on 2024-07-29 03:51:11+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="176" LINES="40"]
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab06 [0;36m([1;31mmain[0;36m) [0m$ cd ..
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs [0;36m([1;31mmain[0;36m) [0m$ cd lab04
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[01;34mconfigs[0m  [01;31mlab04.tgz[0m  [34;42mn223wx[0m  typescript
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ sudo cp [K[K[K[K[K[K[K[Kwget https://boss.vvc.edu/tonning/classes/cis190/resources/configs.tgz
+--2024-07-29 03:55:29--  https://boss.vvc.edu/tonning/classes/cis190/resources/configs.tgz
+Resolving boss.vvc.edu (boss.vvc.edu)... 207.233.102.33
+Connecting to boss.vvc.edu (boss.vvc.edu)|207.233.102.33|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 12435 (12K) [application/octet-stream]
+Saving to: ‘configs.tgz’
+
+configs.tgz                                   0%[                                                                                            ]       0  --.-KB/s               configs.tgz                                 100%[===========================================================================================>]  12.14K  --.-KB/s    in 0.04s   
+
+2024-07-29 03:55:29 (297 KB/s) - ‘configs.tgz’ saved [12435/12435]
+
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[01;34mconfigs[0m  [01;31mconfigs.tgz[0m  [01;31mlab04.tgz[0m  [34;42mn223wx[0m  typescript
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cp [1@s[1@u[1@d[1@o[1@ [C[C[C c o n f i g s . t g z [C . . / . . / l a b s [1P [1P [1P [1P d a t a / a i r c r a f t 
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/lab04 [0;36m([1;31mmain[0;36m) [0m$ cd ..
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs [0;36m([1;31mmain[0;36m) [0m$ cd ..
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace [0;36m([1;31mmain[0;36m) [0m$ cd data/aircraft
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[34;42mbackup[0m  [01;31mconfigs.tgz[0m  [34;42mconfigurations[0m  [34;42mlocations[0m  [34;42mn223wx[0m  [34;42mn456cd[0m
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ sudo tare[K -xvf configs.tgz
+configs/
+configs/n112op/
+configs/n112op/config_3.ini
+configs/n112op/config_5.ini
+configs/n112op/config_1.ini
+configs/n112op/config_2.ini
+configs/n112op/config_4.ini
+configs/n890mn/
+configs/n890mn/config_3.ini
+configs/n890mn/config_5.ini
+configs/n890mn/config_1.ini
+configs/n890mn/config_2.ini
+configs/n890mn/config_4.ini
+configs/n101gh/
+configs/n101gh/config_3.ini
+configs/n101gh/config_5.ini
+configs/n101gh/config_1.ini
+configs/n101gh/config_1a.ini
+configs/n101gh/config_2.ini
+configs/n101gh/config_4.ini
+configs/n678st/
+configs/n678st/config_3.ini
+configs/n678st/config_5.ini
+configs/n678st/config_1.ini
+configs/n678st/config_2.ini
+configs/n678st/config_4.ini
+configs/n567kl/
+configs/n567kl/config_3.ini
+configs/n567kl/config_5.ini
+configs/n567kl/config_1.ini
+configs/n567kl/config_2.ini
+configs/n567kl/config_4.ini
+configs/tailnumbers.txt
+configs/n789ef/
+configs/n789ef/config_3.ini
+configs/n789ef/config_5.ini
+configs/n789ef/config_1.ini
+configs/n789ef/config_2.ini
+configs/n789ef/config_4.ini
+configs/n456cd/
+configs/n456cd/config_3.ini
+configs/n456cd/config_5.ini
+configs/n456cd/config_1.ini
+configs/n456cd/config_2.ini
+configs/n456cd/config_4.ini
+configs/n123ab/
+configs/n123ab/config_3.ini
+configs/n123ab/config_5.ini
+configs/n123ab/config_1.ini
+configs/n123ab/config_2.ini
+configs/n123ab/config_4.ini
+configs/n234ij/
+configs/n234ij/config_3.ini
+configs/n234ij/config_5.ini
+configs/n234ij/config_1.ini
+configs/n234ij/config_2.ini
+configs/n234ij/config_4.ini
+configs/n223wx/
+configs/n223wx/config_3.ini
+configs/n223wx/config_5.ini
+configs/n223wx/config_1.ini
+configs/n223wx/config_2.ini
+configs/n223wx/config_4.ini
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ shopt -s globstar
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ ls **/*.ini
+configs/n101gh/config_1.ini   configs/n112op/config_5.ini  configs/n223wx/config_5.ini  configs/n456cd/config_5.ini  configs/n678st/config_5.ini  configs/n890mn/config_5.ini
+configs/n101gh/config_1a.ini  configs/n123ab/config_1.ini  configs/n234ij/config_1.ini  configs/n567kl/config_1.ini  configs/n789ef/config_1.ini  configurations/config_1.ini
+configs/n101gh/config_2.ini   configs/n123ab/config_2.ini  configs/n234ij/config_2.ini  configs/n567kl/config_2.ini  configs/n789ef/config_2.ini  configurations/config_2.ini
+configs/n101gh/config_3.ini   configs/n123ab/config_3.ini  configs/n234ij/config_3.ini  configs/n567kl/config_3.ini  configs/n789ef/config_3.ini  n223wx/config_1.ini
+configs/n101gh/config_4.ini   configs/n123ab/config_4.ini  configs/n234ij/config_4.ini  configs/n567kl/config_4.ini  configs/n789ef/config_4.ini  n223wx/config_2.ini
+configs/n101gh/config_5.ini   configs/n123ab/config_5.ini  configs/n234ij/config_5.ini  configs/n567kl/config_5.ini  configs/n789ef/config_5.ini  n456cd/config_3.ini
+configs/n112op/config_1.ini   configs/n223wx/config_1.ini  configs/n456cd/config_1.ini  configs/n678st/config_1.ini  configs/n890mn/config_1.ini
+configs/n112op/config_2.ini   configs/n223wx/config_2.ini  configs/n456cd/config_2.ini  configs/n678st/config_2.ini  configs/n890mn/config_2.ini
+configs/n112op/config_3.ini   configs/n223wx/config_3.ini  configs/n456cd/config_3.ini  configs/n678st/config_3.ini  configs/n890mn/config_3.ini
+configs/n112op/config_4.ini   configs/n223wx/config_4.ini  configs/n456cd/config_4.ini  configs/n678st/config_4.ini  configs/n890mn/config_4.ini
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ grep -r A[KAES-112[K[K28
+[35m[Kn456cd/config_3.ini[m[K[36m[K:[m[Kencryption = [01;31m[KAES-128[m[K
+[35m[Kconfigs/n567kl/config_1.ini[m[K[36m[K:[m[Kencryption = [01;31m[KAES-128[m[K
+[35m[Kconfigs/n456cd/config_3.ini[m[K[36m[K:[m[Kencryption = [01;31m[KAES-128[m[K
+[35m[Kconfigs/n456cd/config_2.ini[m[K[36m[K:[m[Kencryption = [01;31m[KAES-128[m[K
+[35m[Kconfigs/n456cd/config_5.ini[m[K[36m[K:[m[Kencryption = [01;31m[KAES-128[m[K
+[35m[Kconfigs/n456cd/config_1.ini[m[K[36m[K:[m[Kencryption = [01;31m[KAES-128[m[K
+[35m[Kconfigs/n789ef/config_2.ini[m[K[36m[K:[m[Kencryption = [01;31m[KAES-128[m[K
+[35m[Kconfigs/n789ef/config_4.ini[m[K[36m[K:[m[Kencryption = [01;31m[KAES-128[m[K
+[35m[Kconfigs/n123ab/config_1.ini[m[K[36m[K:[m[Kencryption = [01;31m[KAES-128[m[K
+[35m[Kconfigs/n223wx/config_4.ini[m[K[36m[K:[m[Kencryption = [01;31m[KAES-128[m[K
+[35m[Kconfigs/n678st/config_3.ini[m[K[36m[K:[m[Kencryption = [01;31m[KAES-128[m[K
+[35m[Kconfigs/n678st/config_5.ini[m[K[36m[K:[m[Kencryption = [01;31m[KAES-128[m[K
+[35m[Kconfigs/n678st/config_1.ini[m[K[36m[K:[m[Kencryption = [01;31m[KAES-128[m[K
+[35m[Kconfigs/n678st/config_4.ini[m[K[36m[K:[m[Kencryption = [01;31m[KAES-128[m[K
+[35m[Kconfigs/n890mn/config_3.ini[m[K[36m[K:[m[Kencryption = [01;31m[KAES-128[m[K
+[35m[Kconfigs/n234ij/config_5.ini[m[K[36m[K:[m[Kencryption = [01;31m[KAES-128[m[K
+[35m[Kconfigs/n234ij/config_4.ini[m[K[36m[K:[m[Kencryption = [01;31m[KAES-128[m[K
+[35m[Kconfigs/n101gh/config_5.ini[m[K[36m[K:[m[Kencryption = [01;31m[KAES-128[m[K
+[35m[Kconfigs/n101gh/config_1a.ini[m[K[36m[K:[m[Kencryption = [01;31m[KAES-128[m[K
+[35m[Kconfigs/n112op/config_1.ini[m[K[36m[K:[m[Kencryption = [01;31m[KAES-128[m[K
+[35m[Kconfigs/n112op/config_4.ini[m[K[36m[K:[m[Kencryption = [01;31m[KAES-128[m[K
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ grep -r AES-128 I[K| wc -l
+21
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ grep -r AES-128 | wc -l[K[K[K[K[K[K[K> AES-128.txt
+grep: input file ‘AES-128.txt’ is also the output
+[0;32m@aarons9445 [1;31m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ ls
+AES-128.txt  [0m[34;42mbackup[0m  [01;34mconfigs[0m  [01;31mconfigs.tgz[0m  [34;42mconfigurations[0m  [34;42mlocations[0m  [34;42mn223wx[0m  [34;42mn456cd[0m
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ vim
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;40r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[?25l[2;1H[94m~                                                                                                                                                                               [3;1H~                                                                                                                                                                               [4;1H~                                                                                                                                                                               [5;1H~                                                                                                                                                                               [6;1H~                                                                                                                                                                               [7;1H~                                                                                                                                                                               [8;1H~                                                                                                                                                                               [9;1H~                                                                                                                                                                               [10;1H~                                                                                                                                                                               [11;1H~                                                                                                                                                                               [12;1H~                                                                                                                                                                               [13;1H~                                                                                                                                                                               [14;1H~                                                                                                                                                                               [15;1H~                                                                                                                                                                               [16;1H~                                                                                                                                                                               [17;1H~                                                                                                                                                                               [18;1H~                                                                                                                                                                               [19;1H~                                                                                                                                                                               [20;1H~                                                                                                                                                                               [21;1H~                                                                                                                                                                               [22;1H~                                                                                                                                                                               [23;1H~                                                                                                                                                                               [24;1H~                                                                                                                                                                               [25;1H~                                                                                                                                                                               [26;1H~                                                                                                                                                                               [27;1H~                                                                                                                                                                               [28;1H~                                                                                                                                                                               [29;1H~                                                                                                                                                                               [30;1H~                                                                                                                                                                               [31;1H~                                                                                                                                                                               [32;1H~                                                                                                                                                                               [33;1H~                                                                                                                                                                               [34;1H~                                                                                                                                                                               [35;1H~                                                                                                                                                                               [36;1H~                                                                                                                                                                               [37;1H~                                                                                                                                                                               [38;1H~                                                                                                                                                                               [39;1H~                                                                                                                                                                               [m[40;159H0,0-1[9CAll[14;80HVIM - Vi IMproved[16;81Hversion 8.1.1847[17;77Hby Bram Moolenaar et al.[18;69HModified by team+vim@tracker.debian.org[19;67HVim is open source and freely distributable[21;74HBecome a registered Vim user![22;66Htype  :help register[34m<Enter>[m   for information [24;66Htype  :q[34m<Enter>[m               to exit         [25;66Htype  :help[34m<Enter>[m  or  [34m<F1>[m  for on-line help[26;66Htype  :help version8[34m<Enter>[m   for version info[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[40;149H/[1;1H[40;150H3[1;1H[40;151Hb[1;1H[40;152H3[1;1H[40;153Hb[1;1H[40;154H/[1;1H[40;155H3[1;1H[40;156Hb[1;1H[40;157H3[1;1H[40;158Hb[1;1H[40;149H          [1;1H[?25h[?25l[40;149H/[1;1H[40;150Hf[1;1H[40;151H8[1;1H[40;152Hf[1;1H[40;153H8[1;1H[40;154H/[1;1H[40;155Hf[1;1H[40;156H8[1;1H[40;157Hf[1;1H[40;158H8[1;1H[40;149H          [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H~@k[1;1H[40;149H   [1;1H[?25h[?25l[40;149H^[[1;1H[40;149H  [1;1H[40;149H^[[1;1H[40;149H  [1;1H[?25h[?25l[40;149HI[1;1H[40;149H [1;1H[40;1H[1m-- INSERT --[m[40;159H[K[40;159H0,1[11CAll[1;1H[?25h[?25ln[14;80H[94m                 [16;81H                [17;77H                        [18;69H                                       [19;67H                                           [21;74H                             [22;66H                                              [24;66H                                              [25;66H                                              [26;66H                                              [m[40;159H1,2[1;2H[?25h[?25l[1;1H[K[40;161H1[1;1H[?25h[?25li[40;161H2[1;2H[?25h

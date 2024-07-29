@@ -1,0 +1,1 @@
+In this exercise I learned and demonstrated the globestar option, redirecting commands with the pipeline command, and to redirect command output to a file. 
