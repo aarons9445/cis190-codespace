@@ -1,0 +1,302 @@
+Script started on 2024-08-08 06:28:29+00:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="132" LINES="40"]
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ wget https://boss.vvc.edu/tonning/classes/cis190/resources/final_configs.tgz
+--2024-08-08 06:28:44--  https://boss.vvc.edu/tonning/classes/cis190/resources/final_configs.tgz
+Resolving boss.vvc.edu (boss.vvc.edu)... 207.233.102.33
+Connecting to boss.vvc.edu (boss.vvc.edu)|207.233.102.33|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 12435 (12K) [application/octet-stream]
+Saving to: ‘final_configs.tgz’
+
+final_configs.tgz                  0%[                                                           ]       0  --.-KB/s               final_configs.tgz                100%[==========================================================>]  12.14K  --.-KB/s    in 0.04s   
+
+2024-08-08 06:28:44 (309 KB/s) - ‘final_configs.tgz’ saved [12435/12435]
+
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ tar -xvf final_cinfig[K[K[K[K[Konfigs.tgz
+configs/
+configs/n112op/
+configs/n112op/config_3.ini
+configs/n112op/config_5.ini
+configs/n112op/config_1.ini
+configs/n112op/config_2.ini
+configs/n112op/config_4.ini
+configs/n890mn/
+configs/n890mn/config_3.ini
+configs/n890mn/config_5.ini
+configs/n890mn/config_1.ini
+configs/n890mn/config_2.ini
+configs/n890mn/config_4.ini
+configs/n101gh/
+configs/n101gh/config_3.ini
+configs/n101gh/config_5.ini
+configs/n101gh/config_1.ini
+configs/n101gh/config_1a.ini
+configs/n101gh/config_2.ini
+configs/n101gh/config_4.ini
+configs/n678st/
+configs/n678st/config_3.ini
+configs/n678st/config_5.ini
+configs/n678st/config_1.ini
+configs/n678st/config_2.ini
+configs/n678st/config_4.ini
+configs/n567kl/
+configs/n567kl/config_3.ini
+configs/n567kl/config_5.ini
+configs/n567kl/config_1.ini
+configs/n567kl/config_2.ini
+configs/n567kl/config_4.ini
+configs/tailnumbers.txt
+configs/n789ef/
+configs/n789ef/config_3.ini
+configs/n789ef/config_5.ini
+configs/n789ef/config_1.ini
+configs/n789ef/config_2.ini
+configs/n789ef/config_4.ini
+configs/n456cd/
+configs/n456cd/config_3.ini
+configs/n456cd/config_5.ini
+configs/n456cd/config_1.ini
+configs/n456cd/config_2.ini
+configs/n456cd/config_4.ini
+configs/n123ab/
+configs/n123ab/config_3.ini
+configs/n123ab/config_5.ini
+configs/n123ab/config_1.ini
+configs/n123ab/config_2.ini
+configs/n123ab/config_4.ini
+configs/n234ij/
+configs/n234ij/config_3.ini
+configs/n234ij/config_5.ini
+configs/n234ij/config_1.ini
+configs/n234ij/config_2.ini
+configs/n234ij/config_4.ini
+configs/n223wx/
+configs/n223wx/config_3.ini
+configs/n223wx/config_5.ini
+configs/n223wx/config_1.ini
+configs/n223wx/config_2.ini
+configs/n223wx/config_4.ini
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ mkdir -p data/aircraft
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ mv configs data/aircraft
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ cd data/aircraft/configs/n123ab
+[0;32m@aarons9445 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ awk '/max_altitude/{pri[Kint $0}'/[K *.ini
+max_altitude = 10000
+max_altitude = 50000
+max_altitude = 35000
+max_altitude = 35000
+max_altitude = 15000
+[0;32m@aarons9445 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ sed -i 's/max_altitus[Kde +[K= 10000/max_altitude = 30000/' *[K*.ini
+[0;32m@aarons9445 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ sed -i 's/max_altitude = 10000/max_altitude = 30000/' *.ini[1P[1@5
+[0;32m@aarons9445 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ sed -i 's/max_altitude = 50000/max_altitude = 30000/' *.ini[1P[C[C[C[1P[1@3[1@5
+[0;32m@aarons9445 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ sed -i 's/max_altitude = 35000/max_altitude = 30000/' *.ini[1P[1@1
+[0;32m@aarons9445 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ wget https://boss.vvc.edu/tonning/classes/cis190/resources/final_logs.tgz 
+--2024-08-08 06:33:21--  https://boss.vvc.edu/tonning/classes/cis190/resources/final_logs.tgz
+Resolving boss.vvc.edu (boss.vvc.edu)... 207.233.102.33
+Connecting to boss.vvc.edu (boss.vvc.edu)|207.233.102.33|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10561 (10K) [application/octet-stream]
+Saving to: ‘final_logs.tgz’
+
+final_logs.tgz                     0%[                                                           ]       0  --.-KB/s               final_logs.tgz                   100%[==========================================================>]  10.31K  --.-KB/s    in 0s      
+
+2024-08-08 06:33:21 (30.7 MB/s) - ‘final_logs.tgz’ saved [10561/10561]
+
+[0;32m@aarons9445 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ tar -xvf final_logs.tgz
+logs/
+logs/n101gh_telemetry.log
+logs/n123ab_telemetry.log
+logs/n567kl_telemetry.log
+logs/n112op_telemetry.log
+logs/n456cd_telemetry.log
+logs/n890mn_telemetry.log
+logs/n234ij_telemetry.log
+logs/n789ef_telemetry.log
+logs/n223wx_telemetry.log
+logs/n678st_telemetry.log
+[0;32m@aarons9445 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ mv logs ../..
+[0;32m@aarons9445 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ cd ../..
+[0;32m@aarons9445 [0m➜ [1;34m.../labs/final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[01;34mconfigs[0m  [01;34mlogs[0m
+[0;32m@aarons9445 [0m➜ [1;34m.../labs/final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ cd logs
+[0;32m@aarons9445 [0m➜ [1;34m.../final/data/aircraft/logs [0;36m([1;31mmain[0;36m) [0m$ grep -iR GPS > gps_summary.txt
+grep: input file ‘gps_summary.txt’ is also the output
+[0;32m@aarons9445 [1;31m➜ [1;34m.../final/data/aircraft/logs [0;36m([1;31mmain[0;36m) [0m$ grep -iR GPS > gps_summary.txt[1P[1P[1P[1@B[1@A[1@T[C[C[C[1Pps_summary.txt[1Ps_summary.txt[1P_summary.txtb_summary.txta_summary.txtt_summary.txtt_summary.txte_summary.txtr_summary.txty_summary.txt[C
+grep: input file ‘battery_summary.txt’ is also the output
+[0;32m@aarons9445 [1;31m➜ [1;34m.../final/data/aircraft/logs [0;36m([1;31mmain[0;36m) [0m$ cd ../../..
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ tar -cf backup.tgz /data
+tar: Removing leading `/' from member names
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ tar -tvf backup.tgz
+drwxr-xr-x root/root         0 2024-07-24 21:50 data/
+drwxr-xr-x root/root         0 2024-07-24 21:51 data/aircraft/
+drwxr-xr-x root/root         0 2024-07-24 21:51 data/aircraft/n223wx/
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ tree
+[34;42m.[00m
+├── [01;31mbackup.tgz[00m
+├── [34;42mdata[00m
+│   └── [34;42maircraft[00m
+│       ├── [01;34mconfigs[00m
+│       │   ├── [01;34mn101gh[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_1a.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   ├── [01;34mn112op[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   ├── [01;34mn123ab[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   ├── config_5.ini
+│       │   │   └── [01;31mfinal_logs.tgz[00m
+│       │   ├── [01;34mn223wx[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   ├── [01;34mn234ij[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   ├── [01;34mn456cd[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   ├── [01;34mn567kl[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   ├── [01;34mn678st[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   ├── [01;34mn789ef[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   ├── [01;34mn890mn[00m
+│       │   │   ├── config_1.ini
+│       │   │   ├── config_2.ini
+│       │   │   ├── config_3.ini
+│       │   │   ├── config_4.ini
+│       │   │   └── config_5.ini
+│       │   └── tailnumbers.txt
+│       └── [01;34mlogs[00m
+│           ├── battery_summary.txt
+│           ├── gps_summary.txt
+│           ├── n101gh_telemetry.log
+│           ├── n112op_telemetry.log
+│           ├── n123ab_telemetry.log
+│           ├── n223wx_telemetry.log
+│           ├── n234ij_telemetry.log
+│           ├── n456cd_telemetry.log
+│           ├── n567kl_telemetry.log
+│           ├── n678st_telemetry.log
+│           ├── n789ef_telemetry.log
+│           └── n890mn_telemetry.log
+├── [01;31mfinal_configs.tgz[00m
+└── final_typescript
+
+14 directories, 68 files
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ treear -tvf backup.tgzcf backup.tgz /data/ /data[1P /data[C[C/dataw/datao/datar/datak/datas/datap/dataa/datac/datae/datas/data[C/dataci/datas/data1/data9/data0/data-/datac/datao/datad/datae/datas/datap/dataa/datac/datae/data[C/datal/dataa/datab/datas/data[C/dataf/datai/datan/dataa/datal/data[C[C[C[C[C
+tar: Removing leading `/' from member names
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ tar -cf backup.tgz /workspaces/cis190-codespace/labs/final/dataree[Kar -tvf backup.tgz
+drwxrwxrwx codespace/codespace 0 2024-08-08 06:29 workspaces/cis190-codespace/labs/final/data/
+drwxrwxrwx codespace/codespace 0 2024-08-08 06:35 workspaces/cis190-codespace/labs/final/data/aircraft/
+drwxr-xr-x codespace/codespace 0 2024-08-08 06:37 workspaces/cis190-codespace/labs/final/data/aircraft/logs/
+-rw-r--r-- codespace/codespace 9829 2024-07-29 22:57 workspaces/cis190-codespace/labs/final/data/aircraft/logs/n234ij_telemetry.log
+-rw-rw-rw- codespace/codespace 19550 2024-08-08 06:37 workspaces/cis190-codespace/labs/final/data/aircraft/logs/battery_summary.txt
+-rw-r--r-- codespace/codespace  9830 2024-07-29 22:57 workspaces/cis190-codespace/labs/final/data/aircraft/logs/n101gh_telemetry.log
+-rw-r--r-- codespace/codespace  9742 2024-07-29 22:57 workspaces/cis190-codespace/labs/final/data/aircraft/logs/n123ab_telemetry.log
+-rw-r--r-- codespace/codespace  9801 2024-07-29 22:57 workspaces/cis190-codespace/labs/final/data/aircraft/logs/n456cd_telemetry.log
+-rw-r--r-- codespace/codespace  9801 2024-07-29 22:57 workspaces/cis190-codespace/labs/final/data/aircraft/logs/n223wx_telemetry.log
+-rw-r--r-- codespace/codespace  9803 2024-07-29 22:57 workspaces/cis190-codespace/labs/final/data/aircraft/logs/n678st_telemetry.log
+-rw-r--r-- codespace/codespace  9803 2024-07-29 22:57 workspaces/cis190-codespace/labs/final/data/aircraft/logs/n789ef_telemetry.log
+-rw-r--r-- codespace/codespace  9801 2024-07-29 22:57 workspaces/cis190-codespace/labs/final/data/aircraft/logs/n567kl_telemetry.log
+-rw-rw-rw- codespace/codespace 31150 2024-08-08 06:37 workspaces/cis190-codespace/labs/final/data/aircraft/logs/gps_summary.txt
+-rw-r--r-- codespace/codespace  9828 2024-07-29 22:57 workspaces/cis190-codespace/labs/final/data/aircraft/logs/n890mn_telemetry.log
+-rw-r--r-- codespace/codespace  9800 2024-07-29 22:57 workspaces/cis190-codespace/labs/final/data/aircraft/logs/n112op_telemetry.log
+drwxr-xr-x codespace/codespace     0 2024-07-05 17:51 workspaces/cis190-codespace/labs/final/data/aircraft/configs/
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n567kl/
+-rw-r--r-- codespace/codespace   807 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n567kl/config_3.ini
+-rw-r--r-- codespace/codespace   799 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n567kl/config_2.ini
+-rw-r--r-- codespace/codespace   810 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n567kl/config_5.ini
+-rw-r--r-- codespace/codespace   813 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n567kl/config_1.ini
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n567kl/config_4.ini
+-rw-r--r-- codespace/codespace   287 2024-07-05 17:51 workspaces/cis190-codespace/labs/final/data/aircraft/configs/tailnumbers.txt
+drwxr-xr-x codespace/codespace     0 2024-07-05 17:54 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n456cd/
+-rw-r--r-- codespace/codespace   814 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n456cd/config_3.ini
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n456cd/config_2.ini
+-rw-r--r-- codespace/codespace   811 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n456cd/config_5.ini
+-rw-r--r-- codespace/codespace   802 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n456cd/config_1.ini
+-rw-r--r-- codespace/codespace   808 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n456cd/config_4.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n789ef/
+-rw-r--r-- codespace/codespace   810 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n789ef/config_3.ini
+-rw-r--r-- codespace/codespace   802 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n789ef/config_2.ini
+-rw-r--r-- codespace/codespace   817 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n789ef/config_5.ini
+-rw-r--r-- codespace/codespace   814 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n789ef/config_1.ini
+-rw-r--r-- codespace/codespace   800 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n789ef/config_4.ini
+drwxr-xr-x codespace/codespace     0 2024-08-08 06:35 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n123ab/
+-rw-rw-rw- codespace/codespace 10561 2024-07-30 14:36 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n123ab/final_logs.tgz
+-rw-r--r-- codespace/codespace   809 2024-08-08 06:32 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n123ab/config_3.ini
+-rw-r--r-- codespace/codespace   803 2024-08-08 06:32 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n123ab/config_2.ini
+-rw-r--r-- codespace/codespace   808 2024-08-08 06:32 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n123ab/config_5.ini
+-rw-r--r-- codespace/codespace   809 2024-08-08 06:32 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n123ab/config_1.ini
+-rw-r--r-- codespace/codespace   806 2024-08-08 06:32 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n123ab/config_4.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n223wx/
+-rw-r--r-- codespace/codespace   807 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n223wx/config_3.ini
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:26 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n223wx/config_2.ini
+-rw-r--r-- codespace/codespace   813 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n223wx/config_5.ini
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n223wx/config_1.ini
+-rw-r--r-- codespace/codespace   816 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n223wx/config_4.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n678st/
+-rw-r--r-- codespace/codespace   816 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n678st/config_3.ini
+-rw-r--r-- codespace/codespace   814 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n678st/config_2.ini
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n678st/config_5.ini
+-rw-r--r-- codespace/codespace   809 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n678st/config_1.ini
+-rw-r--r-- codespace/codespace   819 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n678st/config_4.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n890mn/
+-rw-r--r-- codespace/codespace   803 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n890mn/config_3.ini
+-rw-r--r-- codespace/codespace   808 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n890mn/config_2.ini
+-rw-r--r-- codespace/codespace   807 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n890mn/config_5.ini
+-rw-r--r-- codespace/codespace   498 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n890mn/config_1.ini
+-rw-r--r-- codespace/codespace   811 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n890mn/config_4.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n234ij/
+-rw-r--r-- codespace/codespace   805 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n234ij/config_3.ini
+-rw-r--r-- codespace/codespace   810 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n234ij/config_2.ini
+-rw-r--r-- codespace/codespace   809 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n234ij/config_5.ini
+-rw-r--r-- codespace/codespace   799 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n234ij/config_1.ini
+-rw-r--r-- codespace/codespace   798 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n234ij/config_4.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n101gh/
+-rw-r--r-- codespace/codespace   801 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n101gh/config_3.ini
+-rw-r--r-- codespace/codespace   793 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n101gh/config_2.ini
+-rw-r--r-- codespace/codespace   808 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n101gh/config_5.ini
+-rw-r--r-- codespace/codespace   816 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n101gh/config_1.ini
+-rw-r--r-- codespace/codespace   816 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n101gh/config_4.ini
+-rw-r--r-- codespace/codespace   572 2024-07-05 14:43 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n101gh/config_1a.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n112op/
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n112op/config_3.ini
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n112op/config_2.ini
+-rw-r--r-- codespace/codespace   815 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n112op/config_5.ini
+-rw-r--r-- codespace/codespace   814 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n112op/config_1.ini
+-rw-r--r-- codespace/codespace   813 2024-07-05 16:24 workspaces/cis190-codespace/labs/final/data/aircraft/configs/n112op/config_4.ini
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ touch backup.sh
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ chmod +x backup.sh
+[0;32m@aarons9445 [0m➜ [1;34m/workspaces/cis190-codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ vim backup.sh
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;40r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[40;1H"backup.sh" 0L, 0C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                                                   [3;1H~                                                                                                                                   [4;1H~                                                                                                                                   [5;1H~                                                                                                                                   [6;1H~                                                                                                                                   [7;1H~                                                                                                                                   [8;1H~                                                                                                                                   [9;1H~                                                                                                                                   [10;1H~                                                                                                                                   [11;1H~                                                                                                                                   [12;1H~                                                                                                                                   [13;1H~                                                                                                                                   [14;1H~                                                                                                                                   [15;1H~                                                                                                                                   [16;1H~                                                                                                                                   [17;1H~                                                                                                                                   [18;1H~                                                                                                                                   [19;1H~                                                                                                                                   [20;1H~                                                                                                                                   [21;1H~                                                                                                                                   [22;1H~                                                                                                                                   [23;1H~                                                                                                                                   [24;1H~                                                                                                                                   [25;1H~                                                                                                                                   [26;1H~                                                                                                                                   [27;1H~                                                                                                                                   [28;1H~                                                                                                                                   [29;1H~                                                                                                                                   [30;1H~                                                                                                                                   [31;1H~                                                                                                                                   [32;1H~                                                                                                                                   [33;1H~                                                                                                                                   [34;1H~                                                                                                                                   [35;1H~                                                                                                                                   [36;1H~                                                                                                                                   [37;1H~                                                                                                                                   [38;1H~
